@@ -216,19 +216,21 @@ class ProductView(ListAPIView):
     pagination_class = MyLimitOffsetPagination
     def get_queryset(self):
         try:
+            # print("dddddd",self.request.GET.get('model_name'))
             id = self.request.GET.get('id')
             buystatus = self.request.GET.get('buystatus')
             sellstatus = self.request.GET.get('sellstatus')
-            phone = self.request.GET.get('modal_name')
+            phone = self.request.GET.get('model_name')
             qs = ProductModel.objects.all()
             if id : qs = qs.filter(id=id)
-            if phone : qs =  qs.filter(phone__icontains = phone)
+            if phone : qs =  qs.filter(model_name__icontains = phone)
             if buystatus: qs = qs.filter(buystatus = True)
             if sellstatus: qs = qs.filter(sellstatus=True)
             return qs
         except: return None
     def post(self,request):
         try:
+            # print("data",self.request.data)
             #creat field in Phonemodel
             # try: 
                 
@@ -267,14 +269,17 @@ class ProductView(ListAPIView):
                 product_obj  =  ProductSerializer(data=self.request.data,partial=True)
                 msg = "Saved Successfully"
             product_obj.is_valid(raise_exception=True)
+            # print("save")
             product_obj_data=product_obj.save()
             #to addd color and phone_model in phone table ...
             # phone_obj_data.phone_model.add(product_obj_data)    
             # to add images 
+            # print("imageto")
             try: images = self.request.FILES.getlist('images')
             except:images=''
             if images:
                 for image in images:
+                    print("image",image)
                     image_obj = ImageSerializer(data={'image':image},partial=True)
                     image_obj.is_valid(raise_exception=True)
                     image_saved = image_obj.save()
@@ -314,7 +319,8 @@ class ProductView(ListAPIView):
                                     img=ImageModel.objects.filter(id=i)
                                     if img.count():
                                         img.delete()
-
+                                        
+                            return Response({"Status":status.HTTP_200_OK,"Message":msg})
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record found with given id"})
             else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":data})
         except Exception as e:return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})

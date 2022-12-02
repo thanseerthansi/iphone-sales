@@ -28,5 +28,8 @@ urlpatterns = [
          jwt_views.TokenRefreshView.as_view(),
          name ='token_refresh'),
     path('user/',include('Userapp.urls')),
+    path('product/',include('commonapp.urls')),
+    path('purchase/',include('Purchaseapp.urls')),
+    path('selling/',include('Sellingapp.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

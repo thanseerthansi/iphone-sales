@@ -28,14 +28,15 @@ class ImageSerializer(serializers.ModelSerializer):
 
 
 class ProductSerializer(serializers.ModelSerializer):
-    condition = serializers.SerializerMethodField()
+    # condition = serializers.SerializerMethodField()
+    images = ImageSerializer(many=True)
     class Meta:
         model = ProductModel
         fields = '__all__'
 
-    def get_condition(self,obj):
-        if obj.condition:
-            v_obj = ConditionModel.objects.filter(id=obj.condition.id).select_related('condition')
-            v_qs = ConditionSerializer(v_obj,many=True)
-            return v_qs.data
-        else:pass
+    # def get_condition(self,obj):
+    #     if obj.condition:
+    #         v_obj = ConditionModel.objects.filter(id=obj.condition.id).select_related('condition')
+    #         v_qs = ConditionSerializer(v_obj,many=True)
+    #         return v_qs.data
+    #     else:pass
