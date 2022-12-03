@@ -16,10 +16,12 @@ class StatusView(ListAPIView):
             id = self.request.GET.get('id')
             qs = StatusModel.objects.all()
             if id: qs = qs.filter(id=id)
+            return qs
         except :return None
   
     def post(self,request):
         try:
+            print("data",self.request.data)
             try: id = self.request.data['id']
             except:id=''
             if id:
@@ -32,7 +34,9 @@ class StatusView(ListAPIView):
             else:
                 status_obj = StatusSerializer(data=self.request.data,partial=True)
                 msg = "Saved Successfully"
+              
             status_obj.is_valid(raise_exception=True)
+           
             status_obj.save()
             return Response({"Status":status.HTTP_200_OK,"Message":msg})
         except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})

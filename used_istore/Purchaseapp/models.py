@@ -1,5 +1,5 @@
 from django.db import models
-from commonapp.models import ProductModel, StatusModel
+from commonapp.models import ImageModel, ProductModel, StatusModel
 
 
 # Create your models here.
@@ -39,6 +39,7 @@ class OrderedproductModel(models.Model):
 class ReviewModel(models.Model):
     customer = models.CharField(max_length=100,blank=True)
     product  = models.ForeignKey(ProductModel,on_delete=models.CASCADE)
+    images = models.ManyToManyField(ImageModel)
     review_star = models.IntegerField(default=0)
     status = models.BooleanField(default=True) 
     description = models.TextField(blank=True)

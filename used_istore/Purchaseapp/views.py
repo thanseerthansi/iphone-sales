@@ -2,6 +2,7 @@ from django.shortcuts import render
 import json
 from used_istore.globalimport import *
 from used_istore.mypagination import MyLimitOffsetPagination
+from commonapp.serializers import ImageSerializer
 from .serializers import OrderdproductSerializer, OrderSerializer, ReviewSerializer
 from .models import *
 
@@ -104,7 +105,7 @@ from .models import *
 class OrderView(ListAPIView):
     permission_classes = (AllowAny,)
     serializer_class = OrderSerializer
-
+    pagination_class = MyLimitOffsetPagination
     def get_queryset(self):
         try:
             id = self.request.GET.get('id')
@@ -262,7 +263,16 @@ class ReviewView(ListAPIView):
                 review_obj = ReviewSerializer(data=self.request.data,partial=True)
                 msg = "Saved Sucessfully"
             review_obj.is_valid(raise_exception=True)
-            review_obj.save(product= product_qs)
+            review_data = review_obj.save(product= product_qs)
+            try: images = self.request.FILES.getlist('images')
+            except:images=''
+            if images:
+                for image in images:
+                    print("image",image)
+                    image_obj = ImageSerializer(data={'image':image},partial=True)
+                    image_obj.is_valid(raise_exception=True)
+                    image_saved = image_obj.save()
+                    review_data.images.add(image_saved)    
             return Response({"Status":status.HTTP_200_OK,"Message":msg})
         except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     def delete(self,request):
