@@ -180,6 +180,7 @@ class ConditionView(ListAPIView):
             id = self.request.GET.get('id')
             qs = ConditionModel.objects.all()
             if id: qs = qs.filter(id=id)
+            return qs
         except :return None
         
     def post(self,request):
@@ -203,11 +204,15 @@ class ConditionView(ListAPIView):
 
     def delete(self,request):
         try:
+            print("self.request.data['id']",self.request.data['id'])
             id = self.request.data['id']
             id=json.loads(id)
+            
             if id:
-                obj = ImageModel.objects.filter(id__in=id)
+                obj = ConditionModel.objects.filter(id__in=id)
+                print("okk")
                 if obj.count():
+                    print("okk")
                     obj.delete() 
                     return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})

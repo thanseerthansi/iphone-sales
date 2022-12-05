@@ -40,6 +40,9 @@ class ProductModel(models.Model):
     model_name = models.CharField(max_length=100,blank=True)
     # condition = models.ForeignKey(ConditionModel,on_delete=models.CASCADE)
     # storage = models.CharField(max_length=100,blank=True)
+    colors = models.CharField(max_length=100,blank=True)
+    oldfromprice = models.FloatField(default=0.0)
+    sellfromprice = models.FloatField(default=0.0)
     sellprice = models.CharField(max_length=200,blank=True)#storage-condition-price,.....
     buyprice = models.CharField(max_length=200,blank=True)
     sellstatus = models.BooleanField(default=True)

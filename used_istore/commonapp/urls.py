@@ -19,6 +19,7 @@ from .views import *
 
 urlpatterns = [
     path('status/',StatusView.as_view()),
+    path('condition/',ConditionView.as_view()),
     # path('city/',CityView.as_view()),
     # path('color/',ColorView.as_view()),
     path('product/',ProductView.as_view()),
