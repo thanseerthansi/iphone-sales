@@ -1,7 +1,7 @@
 # from django.shortcuts import render
 from used_istore.globalimport import *
-from commonapp.serializers import (ConditionSerializer, ImageSerializer, ProductSerializer,
-    StatusSerializer)
+from commonapp.serializers import (ConditionSerializer, ImageSerializer, ProductfullSerializer,
+    ProductSerializer, StatusSerializer)
 from commonapp.models import ConditionModel, ImageModel, ProductModel, StatusModel
 import json
 from used_istore.mypagination import MyLimitOffsetPagination
@@ -218,7 +218,23 @@ class ConditionView(ListAPIView):
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
             else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No id found"})
         except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
-
+class ProductfullView(ListAPIView):
+    serializer_class = ProductfullSerializer
+    permission_classes = (AllowAny,)
+    def get_queryset(self):
+        try:
+            # print("dddddd",self.request.GET.get('model_name'))
+            id = self.request.GET.get('id')
+            buystatus = self.request.GET.get('buystatus')
+            sellstatus = self.request.GET.get('sellstatus')
+            phone = self.request.GET.get('model_name')
+            qs = ProductModel.objects.all()
+            if id : qs = qs.filter(id=id)
+            if phone : qs =  qs.filter(model_name__icontains = phone)
+            if buystatus: qs = qs.filter(buystatus = True)
+            if sellstatus: qs = qs.filter(sellstatus=True)
+            return qs
+        except: return None
 class ProductView(ListAPIView):
     permission_classes = (IsAuthenticatedOrReadOnly,)
     serializer_class = ProductSerializer

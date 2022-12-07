@@ -23,4 +23,5 @@ urlpatterns = [
     # path('city/',CityView.as_view()),
     # path('color/',ColorView.as_view()),
     path('product/',ProductView.as_view()),
+    path('productfull/',ProductfullView.as_view()),
 ]

@@ -117,6 +117,7 @@ class OrderView(ListAPIView):
         except: return None
     def post(self,request):
         try:
+            # print("ok")
             orderdata = self.request.data[0]
             try:id = orderdata['id']
             except:id=''
@@ -134,12 +135,13 @@ class OrderView(ListAPIView):
                     msg = "Updated Successfully"
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No records found with given id"})
             else:
-                order_obj= OrderSerializer(orderdata,partial=True)
+                order_obj= OrderSerializer(data=orderdata,partial=True)
                 msg = "Saved Successfully"
             order_obj.is_valid(raise_exception=True)
             order_saveddata = order_obj.save(status = status_qs)
             #product add to ordered table start
             for i in self.request.data:
+                # print("i",i)
                 try:product = i['product']
                 except:product = ''
                 if product:
@@ -153,7 +155,7 @@ class OrderView(ListAPIView):
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"Product not found"})
             #product add to ordered table end
 
-            return Response({"Status":status.HTTP_200_OK,"Message":msg})
+            return Response({"Status":status.HTTP_200_OK,"Message":msg,"id":order_saveddata.id,"date":order_saveddata.created_date})
         except Exception as e:return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     def delete(self,request):
         try:

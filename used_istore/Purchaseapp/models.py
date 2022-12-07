@@ -17,6 +17,7 @@ class OrderModel(models.Model):
     customer_name = models.CharField(max_length=100,blank=True)
     address = models.CharField(max_length=100,blank=True)
     contact = models.CharField(max_length=100,blank=True)
+    email  = models.CharField(max_length=100,blank=True)
     status = models.ForeignKey(StatusModel,on_delete = models.DO_NOTHING)
     city = models.CharField(max_length=100,blank=True)
     subtotal_price = models.FloatField(default=0.0)
@@ -30,6 +31,9 @@ class OrderModel(models.Model):
 class OrderedproductModel(models.Model):
     order_id = models.ForeignKey(OrderModel,on_delete=models.CASCADE)
     product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)
+    price = models.FloatField(default=0.0)
+    condition = models.CharField(max_length=100,blank=True)
+    storage = models.CharField(max_length=100,blank=True)
     color  = models.CharField(max_length=100,blank=True)
     quantity  = models.IntegerField(default=0)
     description = models.TextField(blank=True)

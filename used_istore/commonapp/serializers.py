@@ -40,3 +40,7 @@ class ProductSerializer(serializers.ModelSerializer):
     #         v_qs = ConditionSerializer(v_obj,many=True)
     #         return v_qs.data
     #     else:pass
+class ProductfullSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProductModel
+        fields = ['model_name','buyprice','buystatus','created_date']
