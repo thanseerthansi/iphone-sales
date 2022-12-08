@@ -22,6 +22,7 @@ class SellorderView(ListAPIView):
         except: return None
     def post(self,request):
         try:
+            print("data",self.request.data)
             sellorderdata = self.request.data[0]
             try:id = sellorderdata['id']
             except:id=''
@@ -39,7 +40,7 @@ class SellorderView(ListAPIView):
                     msg = "Updated Successfully"
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No records found with given id"})
             else:
-                sellorder_obj= SellorderSerializer(sellorderdata,partial=True)
+                sellorder_obj= SellorderSerializer(data=sellorderdata,partial=True)
                 msg = "Saved Successfully"
             sellorder_obj.is_valid(raise_exception=True)
             sellorder_saveddata = sellorder_obj.save(status = status_qs)
@@ -53,12 +54,12 @@ class SellorderView(ListAPIView):
                         product_qs = product_qs.first()
                         sellproductorder_qs =  SellproductorderSerializer(data=i,partial = True)
                         sellproductorder_qs.is_valid(raise_exception=True)
-                        sellproductorder_qs.save(order_id = sellorder_saveddata,product = product_qs)
+                        sellproductorder_qs.save(sellorder_id = sellorder_saveddata,product = product_qs)
                     else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"Product not found"})
             #product add to sellordered table end
 
-            return Response({"Status":status.HTTP_200_OK,"Message":msg})
+            return Response({"Status":status.HTTP_200_OK,"Message":msg,"id":sellorder_saveddata.id,"date":sellorder_saveddata.created_date})
         except Exception as e:return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     def delete(self,request):
         try:

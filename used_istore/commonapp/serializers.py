@@ -43,4 +43,4 @@ class ProductSerializer(serializers.ModelSerializer):
 class ProductfullSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductModel
-        fields = ['model_name','buyprice','buystatus','created_date']
+        fields = ['model_name','buyprice','buystatus','created_date','id']

@@ -246,13 +246,27 @@ class ReviewView(ListAPIView):
         return qs
     def post(self,request):
         try:
+            # imagelist = []
+            print("data",self.request.data)
+            # try: images = self.request.FILES.getlist('images')
+            # except:images=''
+            # print("image",images)
+            # try: images = self.request.FILES.getlist('images')
+            # except:images=''
+            # if images:
+            #     for image in images:
+            #         print("image",image)
+            #         image_obj = ImageSerializer(data={'image':image},partial=True)
+            #         image_obj.is_valid(raise_exception=True)
+            #         image_saved = image_obj.save()
+            #         imagelist.append(image_saved.id)
             try:id = self.request.data['id']
             except : id = ''
             try: product = self.request.data['product']
             except:product = ''
             if product:
                 product_qs = ProductModel.objects.filter(id=product)
-                if product_qs.count(): product_qs = product_qs.first
+                if product_qs.count(): product_qs = product_qs.first()
             if id :  
                 review_qs = ReviewModel.objects.filter(id=id)
                 if review_qs.count():
@@ -263,10 +277,12 @@ class ReviewView(ListAPIView):
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record found with given id"})
             else:
                 review_obj = ReviewSerializer(data=self.request.data,partial=True)
+                print("revieobj",review_obj)
                 msg = "Saved Sucessfully"
+                
             review_obj.is_valid(raise_exception=True)
             review_data = review_obj.save(product= product_qs)
-            try: images = self.request.FILES.getlist('images')
+            try: images = self.request.FILES.getlist('imagelist')
             except:images=''
             if images:
                 for image in images:

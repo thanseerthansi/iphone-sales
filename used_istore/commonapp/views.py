@@ -177,9 +177,11 @@ class ConditionView(ListAPIView):
     serializer_class = ConditionSerializer
     def get_queryset(self):
         try:
+            condition = self.request.GET.get('condition')
             id = self.request.GET.get('id')
             qs = ConditionModel.objects.all()
             if id: qs = qs.filter(id=id)
+            if condition: qs = qs.filter(condition__icontains=condition)
             return qs
         except :return None
         
@@ -292,6 +294,7 @@ class ProductView(ListAPIView):
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record found with given data"})
             else:
                 product_obj  =  ProductSerializer(data=self.request.data,partial=True)
+                # print("product",product_obj)
                 msg = "Saved Successfully"
             product_obj.is_valid(raise_exception=True)
             # print("save")
@@ -300,11 +303,12 @@ class ProductView(ListAPIView):
             # phone_obj_data.phone_model.add(product_obj_data)    
             # to add images 
             # print("imageto")
-            try: images = self.request.FILES.getlist('images')
+            try: images = self.request.FILES.getlist('imagelist')
             except:images=''
+            # print("image",images)
             if images:
                 for image in images:
-                    print("image",image)
+                    # print("image",image)
                     image_obj = ImageSerializer(data={'image':image},partial=True)
                     image_obj.is_valid(raise_exception=True)
                     image_saved = image_obj.save()
