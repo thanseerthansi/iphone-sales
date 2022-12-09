@@ -236,14 +236,19 @@ class ReviewView(ListAPIView):
     serializer_class = ReviewSerializer
     pagination_class = MyLimitOffsetPagination
     def get_queryset(self):
-        id = self.request.GET.get('id')
-        product = self.request.GET.get('product')
-        review_star = self.request.GET.get('review_star')
-        qs = ReviewModel.objects.all()
-        if id: qs = qs.filter(id=id)
-        if product: qs = qs.filter(product__id=product)
-        if review_star : qs = qs.filter(review_star=review_star)
-        return qs
+        try:
+            id = self.request.GET.get('id')
+            product = self.request.GET.get('product')
+            print("product",product)
+            review_star = self.request.GET.get('review_star')
+            qs = ReviewModel.objects.all()
+            if id: qs = qs.filter(id=id)
+            print("okk")
+            if product: qs = qs.filter(product__id=product)
+            print("okkllmsidg",qs)
+            if review_star : qs = qs.filter(review_star=review_star)
+            return qs
+        except:return None
     def post(self,request):
         try:
             # imagelist = []

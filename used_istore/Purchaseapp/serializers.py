@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from commonapp.serializers import ProductSerializer, StatusSerializer
+from commonapp.serializers import ImageSerializer, ProductSerializer, StatusSerializer
 from .models import *
 
 # class PhoneSerializer(serializers.ModelSerializer):
@@ -40,13 +40,15 @@ class OrderdproductSerializer(serializers.ModelSerializer):
 
 class ReviewSerializer(serializers.ModelSerializer):
     product = serializers.SerializerMethodField()
+    images = ImageSerializer(many=True)
     class Meta:
         model = ReviewModel
         fields = "__all__"
     def get_product(self,obj):
         if obj.product:
-            v_obj = ProductModel.objects.filter(obj.product.id)
+            v_obj = ProductModel.objects.filter(id=obj.product.id)
             v_qs = ProductSerializer(v_obj,many=True)
-            return v_qs.data 
+            return v_qs.data
+        else:pass
          
 
