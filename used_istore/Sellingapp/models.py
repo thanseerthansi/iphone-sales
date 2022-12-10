@@ -19,7 +19,7 @@ class SellproductorderModel(models.Model):
     price = models.FloatField(default=0.0)
     condition = models.CharField(max_length=100,blank=True)
     storage = models.CharField(max_length=100,blank=True)
-    color  = models.CharField(max_length=100,blank=True)
+    # color  = models.CharField(max_length=100,blank=True)
     quantity  = models.IntegerField(default=0)
     description = models.TextField(blank=True)
     created_date = models.DateTimeField(auto_now_add=True)
