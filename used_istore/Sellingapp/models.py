@@ -16,6 +16,9 @@ class SellorderModel(models.Model):
 class SellproductorderModel(models.Model):
     sellorder_id = models.ForeignKey(SellorderModel,on_delete=models.CASCADE)
     product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)
+    price = models.FloatField(default=0.0)
+    condition = models.CharField(max_length=100,blank=True)
+    storage = models.CharField(max_length=100,blank=True)
     color  = models.CharField(max_length=100,blank=True)
     quantity  = models.IntegerField(default=0)
     description = models.TextField(blank=True)

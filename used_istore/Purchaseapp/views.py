@@ -134,6 +134,7 @@ class OrderView(ListAPIView):
                 if order_qs.count():
                     order_qs = order_qs.first()
                     if not status_qs:status_qs = order_qs.status
+                  
                     order_obj = OrderSerializer(order_qs,data=orderdata,partial=True)
                     msg = "Updated Successfully"
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No records found with given id"})
@@ -164,7 +165,7 @@ class OrderView(ListAPIView):
         try:
             id = self.request.data['id']
             id=json.loads(id)
-            print("id",id)
+            # print("id",id)
             if id:
                 obj = OrderModel.objects.filter(id__in=id)
                 if obj.count():

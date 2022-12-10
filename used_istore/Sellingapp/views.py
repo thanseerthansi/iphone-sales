@@ -5,12 +5,13 @@ from used_istore.globalimport import *
 from Sellingapp.models import SellorderModel, SellproductorderModel
 from Sellingapp.serializers import SellorderSerializer, SellproductorderSerializer
 from commonapp.models import ProductModel, StatusModel
+from used_istore.mypagination import MyLimitOffsetPagination
 
 # Create your views here.
 class SellorderView(ListAPIView):
     permission_classes = (AllowAny,)
     serializer_class = SellorderSerializer
-
+    pagination_class = MyLimitOffsetPagination
     def get_queryset(self):
         try:
             id = self.request.GET.get('id')
@@ -56,7 +57,7 @@ class SellorderView(ListAPIView):
                         sellproductorder_qs.is_valid(raise_exception=True)
                         sellproductorder_qs.save(sellorder_id = sellorder_saveddata,product = product_qs)
                     else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
-                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"Product not found"})
+                # else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"Product not found"})
             #product add to sellordered table end
 
             return Response({"Status":status.HTTP_200_OK,"Message":msg,"id":sellorder_saveddata.id,"date":sellorder_saveddata.created_date})
@@ -81,12 +82,13 @@ class SellproductorderView(ListAPIView):
         try:
             id = self.request.GET.get('id')
             order_id = self.request.GET.get('order_id')
+            print("orderid",order_id)
             product  = self.request.GET.get('product')
             qs =SellproductorderModel.objects.all()
             if id:qs = qs.filter(id=id)
-            if order_id:qs=qs.filter(order_id__id = order_id)
+            if order_id:qs=qs.filter(sellorder_id__id = order_id)
             if product:qs =qs.filter(product__id = product)
-            return qs
+            return qs.order_by('-id')
         except: return None
     def post(self,request):
         try:
