@@ -112,7 +112,7 @@ class OrderView(ListAPIView):
             orderstatus = self.request.GET.get('status')
             qs = OrderModel.objects.all()
             if id:qs = qs.filter(id=id)
-            if orderstatus:qs-qs .filter(status__id=orderstatus)
+            if orderstatus:qs=qs .filter(status__id=orderstatus)
             return qs.order_by('-id')
         except: return None
     def post(self,request):

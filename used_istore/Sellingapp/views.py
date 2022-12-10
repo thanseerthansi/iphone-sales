@@ -17,7 +17,7 @@ class SellorderView(ListAPIView):
             sellorderstatus = self.request.GET.get('status')
             qs = SellorderModel.objects.all()
             if id:qs = qs.filter(id=id)
-            if sellorderstatus:qs-qs .filter(status__id=sellorderstatus)
+            if sellorderstatus:qs=qs .filter(status__id=sellorderstatus)
             return qs
         except: return None
     def post(self,request):
@@ -84,7 +84,7 @@ class SellproductorderView(ListAPIView):
             product  = self.request.GET.get('product')
             qs =SellproductorderModel.objects.all()
             if id:qs = qs.filter(id=id)
-            if order_id:qs-qs.filter(order_id__id = order_id)
+            if order_id:qs=qs.filter(order_id__id = order_id)
             if product:qs =qs.filter(product__id = product)
             return qs
         except: return None
