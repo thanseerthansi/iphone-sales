@@ -253,7 +253,7 @@ class ProductView(ListAPIView):
             if phone : qs =  qs.filter(model_name__icontains = phone)
             if buystatus: qs = qs.filter(buystatus = True)
             if sellstatus: qs = qs.filter(sellstatus=True)
-            return qs
+            return qs.order_by('-id')
         except: return None
     def post(self,request):
         try:

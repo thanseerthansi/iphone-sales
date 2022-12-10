@@ -113,24 +113,27 @@ class OrderView(ListAPIView):
             qs = OrderModel.objects.all()
             if id:qs = qs.filter(id=id)
             if orderstatus:qs-qs .filter(status__id=orderstatus)
-            return qs
+            return qs.order_by('-id')
         except: return None
     def post(self,request):
         try:
-            # print("ok")
+            # print("ok",self.request.data)
             orderdata = self.request.data[0]
             try:id = orderdata['id']
             except:id=''
             try:orderstatus= orderdata['status']
             except:orderstatus=''
+            # print("ordrestatus",orderstatus)
             if orderstatus :
                 status_qs = StatusModel.objects.filter(status__icontains=orderstatus)
+                # print("qs",status_qs)
                 if status_qs.count():
                     status_qs = status_qs.first()
             if id:
                 order_qs = OrderModel.objects.filter(id=id)
                 if order_qs.count():
                     order_qs = order_qs.first()
+                    if not status_qs:status_qs = order_qs.status
                     order_obj = OrderSerializer(order_qs,data=orderdata,partial=True)
                     msg = "Updated Successfully"
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No records found with given id"})
@@ -152,7 +155,7 @@ class OrderView(ListAPIView):
                         orderedproduct_qs.is_valid(raise_exception=True)
                         orderedproduct_qs.save(order_id = order_saveddata,product = product_qs)
                     else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
-                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"Product not found"})
+                # else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"Product not found"})
             #product add to ordered table end
 
             return Response({"Status":status.HTTP_200_OK,"Message":msg,"id":order_saveddata.id,"date":order_saveddata.created_date})
@@ -161,6 +164,7 @@ class OrderView(ListAPIView):
         try:
             id = self.request.data['id']
             id=json.loads(id)
+            print("id",id)
             if id:
                 obj = OrderModel.objects.filter(id__in=id)
                 if obj.count():
@@ -180,9 +184,9 @@ class OrderedproductView(ListAPIView):
             product  = self.request.GET.get('product')
             qs = OrderedproductModel.objects.all()
             if id:qs = qs.filter(id=id)
-            if order_id:qs-qs.filter(order_id__id = order_id)
+            if order_id:qs=qs.filter(order_id__id = order_id)
             if product:qs =qs.filter(product__id = product)
-            return qs
+            return qs.order_by('-id')
         except: return None
     def post(self,request):
         try:
@@ -239,20 +243,20 @@ class ReviewView(ListAPIView):
         try:
             id = self.request.GET.get('id')
             product = self.request.GET.get('product')
-            print("product",product)
+            # print("product",product)
             review_star = self.request.GET.get('review_star')
             qs = ReviewModel.objects.all()
             if id: qs = qs.filter(id=id)
-            print("okk")
+            # print("okk")
             if product: qs = qs.filter(product__id=product)
-            print("okkllmsidg",qs)
+            # print("okkllmsidg",qs)
             if review_star : qs = qs.filter(review_star=review_star)
-            return qs
+            return qs.order_by('-id')
         except:return None
     def post(self,request):
         try:
             # imagelist = []
-            print("data",self.request.data)
+            # print("data",self.request.data)
             # try: images = self.request.FILES.getlist('images')
             # except:images=''
             # print("image",images)
@@ -282,7 +286,7 @@ class ReviewView(ListAPIView):
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record found with given id"})
             else:
                 review_obj = ReviewSerializer(data=self.request.data,partial=True)
-                print("revieobj",review_obj)
+                # print("revieobj",review_obj)
                 msg = "Saved Sucessfully"
                 
             review_obj.is_valid(raise_exception=True)
@@ -291,7 +295,7 @@ class ReviewView(ListAPIView):
             except:images=''
             if images:
                 for image in images:
-                    print("image",image)
+                    # print("image",image)
                     image_obj = ImageSerializer(data={'image':image},partial=True)
                     image_obj.is_valid(raise_exception=True)
                     image_saved = image_obj.save()
