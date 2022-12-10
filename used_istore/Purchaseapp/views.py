@@ -3,7 +3,8 @@ import json
 from used_istore.globalimport import *
 from used_istore.mypagination import MyLimitOffsetPagination
 from commonapp.serializers import ImageSerializer
-from .serializers import OrderdproductSerializer, OrderSerializer, ReviewSerializer
+from .serializers import (OrderdproductSerializer, OrderfullSerializer, OrderSerializer,
+    ReviewSerializer)
 from .models import *
 
 # from Purchaseapp.models import PhoneModel
@@ -101,7 +102,18 @@ from .models import *
     #             return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
     #         else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
     #     except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
-
+class OrderfullView(ListAPIView):
+    permission_classes = (AllowAny,)
+    serializer_class = OrderfullSerializer
+    def get_queryset(self):
+        try:
+            id = self.request.GET.get('id')
+            orderstatus = self.request.GET.get('status')
+            qs = OrderModel.objects.all()
+            if id:qs = qs.filter(id=id)
+            if orderstatus:qs=qs .filter(status__id=orderstatus)
+            return qs.order_by('-id')
+        except: return None
 class OrderView(ListAPIView):
     permission_classes = (AllowAny,)
     serializer_class = OrderSerializer

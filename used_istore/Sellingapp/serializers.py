@@ -3,6 +3,17 @@ from commonapp.serializers import ProductSerializer, StatusSerializer
 from .models import *
 
 
+class SellfullorderSerialiezer(serializers.ModelSerializer):
+    status = serializers.SerializerMethodField()
+    class Meta:
+        model = SellorderModel
+        fields = ['status','created_date']
+    def get_status(self,obj):
+        if obj.status:
+            v_obj = StatusModel.objects.filter(id=obj.status.id)
+            v_qs = StatusSerializer(v_obj,many=True)
+            return v_qs.data
+        else:pass
 class SellorderSerializer(serializers.ModelSerializer):
     status = serializers.SerializerMethodField()
     class Meta:

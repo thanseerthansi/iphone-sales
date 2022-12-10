@@ -2,10 +2,18 @@ from rest_framework import serializers
 from commonapp.serializers import ImageSerializer, ProductSerializer, StatusSerializer
 from .models import *
 
-# class PhoneSerializer(serializers.ModelSerializer):
-#     class Meta:
-#         model = PhoneModel
-#         fields = '__all__'
+class OrderfullSerializer(serializers.ModelSerializer):
+    status = serializers.SerializerMethodField()
+    class Meta:
+        model = OrderModel
+        fields = ['status','created_date','total_price']
+    def get_status(self,obj):
+        if obj.status:
+            v_obj = StatusModel.objects.filter(id=obj.status.id)
+            v_qs = StatusSerializer(v_obj,many=True)
+            return v_qs.data
+        else:pass
+
         
 class OrderSerializer(serializers.ModelSerializer):
     status = serializers.SerializerMethodField()

@@ -3,11 +3,25 @@ from django.shortcuts import render
 import json
 from used_istore.globalimport import *
 from Sellingapp.models import SellorderModel, SellproductorderModel
-from Sellingapp.serializers import SellorderSerializer, SellproductorderSerializer
+from Sellingapp.serializers import (SellfullorderSerialiezer, SellorderSerializer,
+    SellproductorderSerializer)
 from commonapp.models import ProductModel, StatusModel
 from used_istore.mypagination import MyLimitOffsetPagination
 
 # Create your views here.
+class SellfullorderView(ListAPIView):
+    permission_classes = (AllowAny,)
+    serializer_class = SellfullorderSerialiezer
+    def get_queryset(self):
+        try:
+            id = self.request.GET.get('id')
+            sellorderstatus = self.request.GET.get('status')
+            qs = SellorderModel.objects.all()
+            if id:qs = qs.filter(id=id)
+            if sellorderstatus:qs=qs .filter(status__id=sellorderstatus)
+            return qs
+        except: return None
+        
 class SellorderView(ListAPIView):
     permission_classes = (AllowAny,)
     serializer_class = SellorderSerializer
@@ -121,7 +135,7 @@ class SellproductorderView(ListAPIView):
                 sellorderedproduct_obj = SellproductorderSerializer(data=self.request.data,partial=True)
                 msg = "Saved Successfully"
             sellorderedproduct_obj.is_valid(raise_exception=True)
-            sellorderedproduct_obj.save(order_id = order_qs,product = product_qs)
+            sellorderedproduct_obj.save(sellorder_id = order_qs,product = product_qs)
             return Response({"Status":status.HTTP_200_OK,"Message":msg})      
         except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     def delete(self,request):

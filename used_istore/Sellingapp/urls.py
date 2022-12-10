@@ -18,6 +18,7 @@ from django.urls import path
 from .views import *
 
 urlpatterns = [
+    path('sellfullorder/',SellfullorderView.as_view()),
     path('sellorder/',SellorderView.as_view()),
     path('sellproduct/',SellproductorderView.as_view()),
 

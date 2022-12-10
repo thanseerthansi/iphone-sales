@@ -19,6 +19,7 @@ from .views import *
 
 urlpatterns = [
     path('order/',OrderView.as_view()),
+    path('orderfull/',OrderfullView.as_view()),
     path('orderedproduct/',OrderedproductView.as_view()),
     path('review/',ReviewView.as_view()),
 
