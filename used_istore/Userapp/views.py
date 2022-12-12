@@ -14,7 +14,7 @@ class Userview(ListAPIView):
             qs = Usermodel.objects.all()
             user = self.request.GET.get('user')
             admin = self.request.GET.get("admin")
-            if user: qs = qs.filter(id=userid)
+            if user: qs = qs.filter(id=user)
             if admin: qs=qs.filter(is_admin=True)
             return qs
         except: return None
