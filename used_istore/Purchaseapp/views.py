@@ -254,6 +254,7 @@ class ReviewView(ListAPIView):
     pagination_class = MyLimitOffsetPagination
     def get_queryset(self):
         try:
+            print("self",self.request.data)
             id = self.request.GET.get('id')
             product = self.request.GET.get('product')
             # print("product",product)

@@ -19,4 +19,6 @@ from .views import *
 
 urlpatterns = [
     path('user/',Userview.as_view()),
+    path('sentmail/',SendMail.as_view()),
+    path('passwordchange/',PasswordChange.as_view()),
 ]
