@@ -20,6 +20,16 @@ class ConditionSerializer(serializers.ModelSerializer):
     class Meta:
         model = ConditionModel
         fields ='__all__'
+
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CategoryModel
+        fields ='__all__'
+
+class ModelnameSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ModelnameModel
+        fields ='__all__'
     
 class ImageSerializer(serializers.ModelSerializer):
     class Meta:
@@ -43,4 +53,4 @@ class ProductSerializer(serializers.ModelSerializer):
 class ProductfullSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductModel
-        fields = ['model_name','buyprice','buystatus','created_date','id']
+        fields = ['model_name','title','buyprice','buystatus','created_date','id']

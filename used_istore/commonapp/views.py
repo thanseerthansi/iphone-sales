@@ -1,8 +1,9 @@
 # from django.shortcuts import render
 from used_istore.globalimport import *
-from commonapp.serializers import (ConditionSerializer, ImageSerializer, ProductfullSerializer,
-    ProductSerializer, StatusSerializer)
-from commonapp.models import ConditionModel, ImageModel, ProductModel, StatusModel
+from commonapp.serializers import (CategorySerializer, ConditionSerializer, ImageSerializer,
+    ModelnameSerializer, ProductfullSerializer, ProductSerializer, StatusSerializer)
+from commonapp.models import (CategoryModel, ConditionModel, ImageModel, ModelnameModel,
+    ProductModel, StatusModel)
 import json
 from used_istore.mypagination import MyLimitOffsetPagination
 # from Purchaseapp.models import PhoneModel
@@ -220,6 +221,86 @@ class ConditionView(ListAPIView):
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
             else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No id found"})
         except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+class CategoryView(ListAPIView):
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+    serializer_class = CategorySerializer
+    def get_queryset(self):
+        try:
+            category = self.request.GET.get('category')
+            id = self.request.GET.get('id')
+            qs = CategoryModel.objects.all()
+            if id: qs = qs.filter(id=id)
+            if category: qs = qs.filter(category__icontains=category)
+            return qs
+        except :return None
+        
+    def post(self,request):
+        try:
+            try: id = self.request.data['id']
+            except:id=''
+            if id:
+                category_qs = CategoryModel.objects.filter(id=id)
+                if category_qs.count():
+                    category_qs = category_qs.first()
+                    category_obj = CategorySerializer(category_qs,data=self.request.data,partial=True)
+                    msg = "Updated Successfully"  
+                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Records Found with given id"}) 
+            else:
+                category_obj = CategorySerializer(data=self.request.data,partial=True)
+                msg = "Saved Successfully"
+            category_obj.is_valid(raise_exception=True)
+            category_obj.save()
+            return Response({"Status":status.HTTP_200_OK,"Message":msg})
+        except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+class ModelnameView(ListAPIView):
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+    serializer_class = ModelnameSerializer
+    def get_queryset(self):
+        try:
+            # category = self.request.GET.get('category')
+            id = self.request.GET.get('id')
+            qs = ModelnameModel.objects.all()
+            if id: qs = qs.filter(id=id)
+            # if category: qs = qs.filter(category__icontains=category)
+            return qs
+        except :return None
+        
+    def post(self,request):
+        try:
+            try: id = self.request.data['id']
+            except:id=''
+            if id:
+                modelname_qs = ModelnameModel.objects.filter(id=id)
+                if modelname_qs.count():
+                    modelname_qs = modelname_qs.first()
+                    modelname_obj = CategorySerializer(modelname_qs,data=self.request.data,partial=True)
+                    msg = "Updated Successfully"  
+                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Records Found with given id"}) 
+            else:
+                modelname_obj = ModelnameSerializer(data=self.request.data,partial=True)
+                msg = "Saved Successfully"
+            modelname_obj.is_valid(raise_exception=True)
+            modelname_obj.save()
+            return Response({"Status":status.HTTP_200_OK,"Message":msg})
+        except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+
+    def delete(self,request):
+        try:
+            print("self.request.data['id']",self.request.data['id'])
+            id = self.request.data['id']
+            id=json.loads(id)
+            
+            if id:
+                obj = ModelnameModel.objects.filter(id__in=id)
+                print("okk")
+                if obj.count():
+                    print("okk")
+                    obj.delete() 
+                    return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
+                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
+            else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No id found"})
+        except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+
 class ProductfullView(ListAPIView):
     serializer_class = ProductfullSerializer
     permission_classes = (AllowAny,)
@@ -240,11 +321,12 @@ class ProductfullView(ListAPIView):
 class ProductView(ListAPIView):
     permission_classes = (IsAuthenticatedOrReadOnly,)
     serializer_class = ProductSerializer
-    pagination_class = MyLimitOffsetPagination
+    # pagination_class = MyLimitOffsetPagination
     def get_queryset(self):
         try:
             # print("dddddd",self.request.GET.get('model_name'))
             id = self.request.GET.get('id')
+            title = self.request.GET.get('title')
             buystatus = self.request.GET.get('buystatus')
             sellstatus = self.request.GET.get('sellstatus')
             phone = self.request.GET.get('model_name')
@@ -265,6 +347,7 @@ class ProductView(ListAPIView):
             if storage : qs = qs.filter(sellprice__icontains = storage)
             if fromprice: qs = qs.filter(sellfromprice__gte= fromprice)
             if toprice: qs = qs.filter(sellfromprice__lte= toprice)
+            if title: qs = qs.filter(title__icontains = title)
             return qs.order_by('-id')
         except: return None
     def post(self,request):

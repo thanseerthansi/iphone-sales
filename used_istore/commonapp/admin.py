@@ -3,8 +3,8 @@ from .models import *
 
 # Register your models here.
 admin.site.register(StatusModel)
-# admin.site.register(CityModel)
-# admin.site.register(ColorModel)
+admin.site.register(CategoryModel)
+admin.site.register(ModelnameModel)
 admin.site.register(ConditionModel)
 admin.site.register(ProductModel)
 admin.site.register(ImageModel)

@@ -251,7 +251,7 @@ class OrderedproductView(ListAPIView):
 class ReviewView(ListAPIView):
     permission_classes = (AllowAny,)
     serializer_class = ReviewSerializer
-    pagination_class = MyLimitOffsetPagination
+    # pagination_class = MyLimitOffsetPagination
     def get_queryset(self):
         try:
             print("self",self.request.data)

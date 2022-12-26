@@ -43,6 +43,7 @@ class OrderedproductModel(models.Model):
 class ReviewModel(models.Model):
     customer = models.CharField(max_length=100,blank=True)
     product  = models.ForeignKey(ProductModel,on_delete=models.CASCADE)
+    email = models.CharField(max_length=100,blank=True)
     images = models.ManyToManyField(ImageModel)
     review_star = models.IntegerField(default=0)
     status = models.BooleanField(default=True) 

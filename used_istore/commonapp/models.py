@@ -21,6 +21,17 @@ class StatusModel(models.Model):
 #     description = models.TextField(blank=True)
 #     created_date = models.DateTimeField(auto_now_add=True)
 #     updated_date = models.DateTimeField(auto_now=True)
+class CategoryModel(models.Model):
+    category = models.CharField(max_length=100,blank=True)
+    description = models.TextField(blank=True)
+    created_date = models.DateField(auto_now_add=True)
+    updated_date = models.DateField(auto_now=True)
+
+class ModelnameModel(models.Model):
+    model_name = models.CharField(max_length=100,blank=True)
+    description = models.TextField(blank=True)
+    created_date = models.DateField(auto_now_add=True)
+    updated_date = models.DateField(auto_now=True)
 
 class ConditionModel(models.Model):
     condition = models.CharField(max_length=100,blank=True)
@@ -37,9 +48,11 @@ class ImageModel(models.Model):
 
 
 class ProductModel(models.Model):
-    model_name = models.CharField(max_length=100,blank=True)
+    title = models.CharField(max_length=100,blank=True)
     # condition = models.ForeignKey(ConditionModel,on_delete=models.CASCADE)
     # storage = models.CharField(max_length=100,blank=True)
+    category = models.CharField(max_length=100,blank=True)
+    model_name = models.CharField(max_length=100,blank=True)
     colors = models.CharField(max_length=100,blank=True)
     oldfromprice = models.FloatField(default=0.0)
     sellfromprice = models.FloatField(default=0.0)
