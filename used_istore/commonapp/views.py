@@ -334,6 +334,8 @@ class ProductView(ListAPIView):
             storage = self.request.GET.get('storage')
             fromprice = self.request.GET.get('fromprice')
             toprice = self.request.GET.get('toprice')
+            category = self.request.GET.get('category')
+            model_name = self.request.GET.get('model_name')
             # print("from",fromprice)
             # print("condition",condition)
             # print("storage",storage)
@@ -348,6 +350,8 @@ class ProductView(ListAPIView):
             if fromprice: qs = qs.filter(sellfromprice__gte= fromprice)
             if toprice: qs = qs.filter(sellfromprice__lte= toprice)
             if title: qs = qs.filter(title__icontains = title)
+            if category: qs = qs.filter(category__icontains = category)
+            if model_name: qs = qs.filter(model_name__icontains = model_name)
             return qs.order_by('-id')
         except: return None
     def post(self,request):

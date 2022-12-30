@@ -37,7 +37,7 @@ class SellorderView(ListAPIView):
         except: return None
     def post(self,request):
         try:
-            print("data",self.request.data)
+            # print("data",self.request.data)
             sellorderdata = self.request.data[0]
             try:id = sellorderdata['id']
             except:id=''
@@ -96,7 +96,7 @@ class SellproductorderView(ListAPIView):
         try:
             id = self.request.GET.get('id')
             order_id = self.request.GET.get('order_id')
-            print("orderid",order_id)
+            # print("orderid",order_id)
             product  = self.request.GET.get('product')
             qs =SellproductorderModel.objects.all()
             if id:qs = qs.filter(id=id)
