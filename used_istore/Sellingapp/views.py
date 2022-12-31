@@ -33,7 +33,7 @@ class SellorderView(ListAPIView):
             qs = SellorderModel.objects.all()
             if id:qs = qs.filter(id=id)
             if sellorderstatus:qs=qs .filter(status__id=sellorderstatus)
-            return qs
+            return qs.order_by('-id')
         except: return None
     def post(self,request):
         try:

@@ -7,15 +7,17 @@ from django.contrib.auth.hashers import check_password
 from django.core.mail import send_mail
 # Create your views here.
 class Userview(ListAPIView):
-    permission_classes = (IsAuthenticatedOrReadOnly,)
+    permission_classes = (AllowAny,)
     serializer_class = UserSerializer
 
     def get_queryset(self):
         try:
             userid = self.request.user.id
+            username = self.request.GET.get('username')
             qs = Usermodel.objects.all()
             user = self.request.GET.get('user')
             admin = self.request.GET.get("admin")
+            if username : qs = qs.filter(username=username) 
             if user: qs = qs.filter(id=user)
             if admin: qs=qs.filter(is_admin=True)
             return qs
