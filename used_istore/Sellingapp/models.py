@@ -19,7 +19,7 @@ class SellorderModel(models.Model):
 
 class SellproductorderModel(models.Model):
     sellorder_id = models.ForeignKey(SellorderModel,on_delete=models.CASCADE)
-    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)
+    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING,blank=True,null=True)
     price = models.FloatField(default=0.0)
     condition = models.CharField(max_length=100,blank=True)
     storage = models.CharField(max_length=100,blank=True)

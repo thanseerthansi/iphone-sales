@@ -5,6 +5,7 @@ from Userapp.models import Usermodel
 from django.contrib.auth.hashers import make_password
 from django.contrib.auth.hashers import check_password
 from django.core.mail import send_mail
+from django.db.models import Q
 # Create your views here.
 class Userview(ListAPIView):
     permission_classes = (AllowAny,)
@@ -14,12 +15,16 @@ class Userview(ListAPIView):
         try:
             userid = self.request.user.id
             username = self.request.GET.get('username')
+            email = self.request.GET.get('email')
+            # print("email",email)
+            # print("email",username)
             qs = Usermodel.objects.all()
             user = self.request.GET.get('user')
             admin = self.request.GET.get("admin")
             if username : qs = qs.filter(username=username) 
+            if email : qs = qs.filter(email = email)
             if user: qs = qs.filter(id=user)
-            if admin: qs=qs.filter(is_admin=True)
+            if admin: qs=qs.filter(Q(is_admin=True )| Q(is_superuser =True))
             return qs
         except: return None
     def post(self,request):

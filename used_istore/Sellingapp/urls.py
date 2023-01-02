@@ -21,5 +21,4 @@ urlpatterns = [
     path('sellfullorder/',SellfullorderView.as_view()),
     path('sellorder/',SellorderView.as_view()),
     path('sellproduct/',SellproductorderView.as_view()),
-
 ]
