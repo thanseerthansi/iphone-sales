@@ -140,9 +140,10 @@ class OrderView(ListAPIView):
             # print("ordrestatus",orderstatus)
             if orderstatus :
                 status_qs = StatusModel.objects.filter(status__icontains=orderstatus)
-                # print("qs",status_qs)
+                
                 if status_qs.count():
                     status_qs = status_qs.first()
+                    # print("qs",status_qs)
             if id:
                 order_qs = OrderModel.objects.filter(id=id)
                 if order_qs.count():
@@ -157,6 +158,7 @@ class OrderView(ListAPIView):
                 msg = "Saved Successfully"
             order_obj.is_valid(raise_exception=True)
             order_saveddata = order_obj.save(status = status_qs)
+            
             #product add to ordered table start
             for i in self.request.data:
                 # print("i",i)
@@ -168,7 +170,8 @@ class OrderView(ListAPIView):
                         product_qs = product_qs.first()
                         orderedproduct_qs =  OrderdproductSerializer(data=i,partial = True)
                         orderedproduct_qs.is_valid(raise_exception=True)
-                        orderedproduct_qs.save(order_id = order_saveddata,product = product_qs)
+                        print("status_qs0",status_qs)
+                        orderedproduct_qs.save(order_id = order_saveddata,product = product_qs,status=status_qs)
                     else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
                 # else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"Product not found"})
             #product add to ordered table end
@@ -205,38 +208,54 @@ class OrderedproductView(ListAPIView):
         except: return None
     def post(self,request):
         try:
-            try: id = self.request.data['id']
+            # print("dataprod/uct",self.request.data)
+            try: id = self.request.data[0]['id']
             except:id=''
-            try: order_id = self.request.data['order_id']
+            try: order_id = self.request.data[0]['order_id']
             except:order_id=''
-            try: product = self.request.data['product']
+            try: product = self.request.data[0]['product']
             except:product=''
+            try: productstatus = self.request.data[0]['status']
+            except:productstatus=''
+            # print("ok",id)
+            if productstatus :
+                status_qs = StatusModel.objects.filter(status__icontains=productstatus)        
+                if status_qs.count():
+                    status_qs = status_qs.first()
             if order_id:
                 order_qs = OrderModel.objects.filter(id=order_id)
                 if order_qs.count():
                     order_qs = order_qs.first()
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})          
             if product:
-                product_qs = ProductModel.objects.filter(id=order_id)
+                product_qs = ProductModel.objects.filter(id=product)
                 if product_qs.count():
                     product_qs = product_qs.first()
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
             if id:
+                
                 orderedproduct_qs = OrderedproductModel.objects.filter(id=id)
                 if orderedproduct_qs.count():
                     orderedproduct_qs = orderedproduct_qs.first()
                     if not product: product_qs = orderedproduct_qs.product
                     if not order_id: order_qs = orderedproduct_qs.order_id
-                    orderedproduct_obj = OrderdproductSerializer(orderedproduct_qs,data=self.request.data,partial=True)
-                    msg = "Updated Successfully"  
+                    
+                    if not productstatus: status_qs = orderedproduct_qs.status
+                    orderedproduct_obj = OrderdproductSerializer(orderedproduct_qs,data=self.request.data[0],partial=True)
+                    msg = "Updated Successfully" 
+                    # print("status",status_qs) 
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Records Found with given id"}) 
             else:
-                orderedproduct_obj = OrderdproductSerializer(data=self.request.data,partial=True)
+                orderedproduct_obj = OrderdproductSerializer(data=self.request.data[0],partial=True)
                 msg = "Saved Successfully"
+            # print("sdfsf",orderedproduct_obj)
             orderedproduct_obj.is_valid(raise_exception=True)
-            orderedproduct_obj.save(order_id = order_qs,product = product_qs)
+            
+            orderedproduct_obj.save(order_id = order_qs,product = product_qs,status=status_qs)
             return Response({"Status":status.HTTP_200_OK,"Message":msg})      
-        except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+        except Exception as e :
+            # print("e",e)
+            return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     def delete(self,request):
         try:
             id = self.request.data['id']

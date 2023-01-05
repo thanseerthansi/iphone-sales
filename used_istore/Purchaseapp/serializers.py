@@ -30,6 +30,7 @@ class OrderSerializer(serializers.ModelSerializer):
 class OrderdproductSerializer(serializers.ModelSerializer):
     order_id = serializers.SerializerMethodField()
     product = serializers.SerializerMethodField()
+    status = serializers.SerializerMethodField()
     class Meta:
         model = OrderedproductModel
         fields = "__all__"
@@ -45,7 +46,12 @@ class OrderdproductSerializer(serializers.ModelSerializer):
             v_qs = ProductSerializer(v_obj,many=True)
             return v_qs.data
         else:pass
-
+    def get_status(self,obj):
+        if obj.status:
+            v_obj = StatusModel.objects.filter(id=obj.status.id)
+            v_qs = StatusSerializer(v_obj,many=True)
+            return v_qs.data
+        else:pass
 class ReviewSerializer(serializers.ModelSerializer):
     product = serializers.SerializerMethodField()
     images = ImageSerializer(many=True)
