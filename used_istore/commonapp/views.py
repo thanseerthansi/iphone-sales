@@ -267,13 +267,17 @@ class ModelnameView(ListAPIView):
         
     def post(self,request):
         try:
+            # print("dataget",self.request.data)
             try: id = self.request.data['id']
             except:id=''
             if id:
+                # print("idpresent")
                 modelname_qs = ModelnameModel.objects.filter(id=id)
                 if modelname_qs.count():
+                    # print("modelspresenet")
                     modelname_qs = modelname_qs.first()
-                    modelname_obj = CategorySerializer(modelname_qs,data=self.request.data,partial=True)
+                    # print("models",modelname_qs)
+                    modelname_obj = ModelnameSerializer(modelname_qs,data=self.request.data,partial=True)
                     msg = "Updated Successfully"  
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Records Found with given id"}) 
             else:
@@ -286,7 +290,7 @@ class ModelnameView(ListAPIView):
 
     def delete(self,request):
         try:
-            print("self.request.data['id']",self.request.data['id'])
+            # print("self.request.data['id']",self.request.data['id'])
             id = self.request.data['id']
             id=json.loads(id)
             
