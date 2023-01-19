@@ -207,15 +207,15 @@ class ConditionView(ListAPIView):
 
     def delete(self,request):
         try:
-            print("self.request.data['id']",self.request.data['id'])
+            # print("self.request.data['id']",self.request.data['id'])
             id = self.request.data['id']
             id=json.loads(id)
             
             if id:
                 obj = ConditionModel.objects.filter(id__in=id)
-                print("okk")
+                # print("okk")
                 if obj.count():
-                    print("okk")
+                    # print("okk")
                     obj.delete() 
                     return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
@@ -252,6 +252,22 @@ class CategoryView(ListAPIView):
             category_obj.save()
             return Response({"Status":status.HTTP_200_OK,"Message":msg})
         except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+    def delete(self,request):
+        try:
+            # print("self.request.data['id']",self.request.data['id'])
+            id = self.request.data['id']
+            id=json.loads(id)
+            
+            if id:
+                obj = CategoryModel.objects.filter(id__in=id)
+                # print("okk")
+                if obj.count():
+                    # print("okk")
+                    obj.delete() 
+                    return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
+                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
+            else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No id found"})
+        except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
 class ModelnameView(ListAPIView):
     permission_classes = (IsAuthenticatedOrReadOnly,)
     serializer_class = ModelnameSerializer
@@ -296,9 +312,9 @@ class ModelnameView(ListAPIView):
             
             if id:
                 obj = ModelnameModel.objects.filter(id__in=id)
-                print("okk")
+                # print("okk")
                 if obj.count():
-                    print("okk")
+                    # print("okk")
                     obj.delete() 
                     return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
