@@ -54,3 +54,8 @@ class ProductfullSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductModel
         fields = ['model_name','title','buyprice','buystatus','created_date','id']
+
+class TestimonialSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = TestimonialModel
+        fields = '__all__'

@@ -1,9 +1,10 @@
 # from django.shortcuts import render
 from used_istore.globalimport import *
 from commonapp.serializers import (CategorySerializer, ConditionSerializer, ImageSerializer,
-    ModelnameSerializer, ProductfullSerializer, ProductSerializer, StatusSerializer)
+    ModelnameSerializer, ProductfullSerializer, ProductSerializer, StatusSerializer,
+    TestimonialSerializer)
 from commonapp.models import (CategoryModel, ConditionModel, ImageModel, ModelnameModel,
-    ProductModel, StatusModel)
+    ProductModel, StatusModel, TestimonialModel)
 import json
 from used_istore.mypagination import MyLimitOffsetPagination
 # from Purchaseapp.models import PhoneModel
@@ -254,13 +255,13 @@ class CategoryView(ListAPIView):
         except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     def delete(self,request):
         try:
-            # print("self.request.data['id']",self.request.data['id'])
+            print("self.request.data['id']",self.request.data['id'])
             id = self.request.data['id']
             id=json.loads(id)
             
             if id:
                 obj = CategoryModel.objects.filter(id__in=id)
-                # print("okk")
+                print("okk")
                 if obj.count():
                     # print("okk")
                     obj.delete() 
@@ -488,6 +489,59 @@ class ProductView(ListAPIView):
                     #     phone_qs = PhoneModel.objects.filter(model_name = modelname)
                     #     if phone_qs.count():
                     #         phone_qs.delete()
+                    return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
+                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
+            else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No id found"})
+        except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+
+class TestimonialView(ListAPIView):
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+    serializer_class = TestimonialSerializer
+    def get_queryset(self):
+        try:
+            # category = self.request.GET.get('category')
+            id = self.request.GET.get('id')
+            qs = TestimonialModel.objects.all()
+            if id: qs = qs.filter(id=id)
+            # if category: qs = qs.filter(category__icontains=category)
+            return qs
+        except :return None
+        
+    def post(self,request):
+        try:
+            # print("dataget",self.request.data)
+            try: id = self.request.data['id']
+            except:id=''
+            if id:
+                # print("idpresent")
+                testimonialname_qs = TestimonialModel.objects.filter(id=id)
+                if testimonialname_qs.count():
+                    # print("modelspresenet")
+                    testimonialname_qs = testimonialname_qs.first()
+                    # print("models",modelname_qs)
+                    testimonialname_obj = TestimonialSerializer(testimonialname_qs,data=self.request.data,partial=True)
+                    msg = "Updated Successfully"  
+                else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Records Found with given id"}) 
+            else:
+                testimonialname_obj = TestimonialSerializer(data=self.request.data,partial=True)
+                msg = "Saved Successfully"
+            testimonialname_obj.is_valid(raise_exception=True)
+            testimonialname_obj.save()
+            return Response({"Status":status.HTTP_200_OK,"Message":msg})
+        except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+
+    def delete(self,request):
+        try:
+            # print("self.request.data['id']",self.request.data['id'])
+            id = self.request.data['id']
+            id=json.loads(id)
+            
+            if id:
+                obj = TestimonialModel.objects.filter(id__in=id)
+                # print("okk")
+                if obj.count():
+                    # print("okk")
+                    obj.delete() 
                     return Response({"Status":status.HTTP_200_OK,"Message":"Deleted Successfully"})
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
             else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No id found"})

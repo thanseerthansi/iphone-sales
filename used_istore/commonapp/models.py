@@ -64,3 +64,12 @@ class ProductModel(models.Model):
     images = models.ManyToManyField(ImageModel)
     created_date = models.DateTimeField(auto_now_add=True)
     updated_date = models.DateTimeField(auto_now=True)
+
+class TestimonialModel(models.Model):
+    name = models.CharField(max_length=100,blank=True)
+    place = models.CharField(max_length=100,blank=True)
+    rating = models.IntegerField(default=0)
+    review = models.CharField(max_length=100,default=True)
+    created_date = models.DateTimeField(auto_now_add=True)
+    updated_date = models.DateTimeField(auto_now=True)
+    
