@@ -24,4 +24,5 @@ urlpatterns = [
     path('modelname/',ModelnameView.as_view()),
     path('product/',ProductView.as_view()),
     path('productfull/',ProductfullView.as_view()),
+    path('testimonial/',TestimonialView.as_view()),
 ]
