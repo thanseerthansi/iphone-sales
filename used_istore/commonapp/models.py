@@ -69,7 +69,7 @@ class TestimonialModel(models.Model):
     name = models.CharField(max_length=100,blank=True)
     place = models.CharField(max_length=100,blank=True)
     rating = models.IntegerField(default=0)
-    review = models.CharField(max_length=100,default=True)
+    review = models.TextField(blank=True)
     created_date = models.DateTimeField(auto_now_add=True)
     updated_date = models.DateTimeField(auto_now=True)
     
