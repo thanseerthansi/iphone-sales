@@ -26,8 +26,8 @@ SECRET_KEY = '_quwe@0*am@u++$**%gm^i-rv5%y9env8v!8b@56$d#v0!8s+j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['zellstores.com','admin.zellstores.com']
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['64.227.170.7']
+# ALLOWED_HOSTS = ['*']
 CORS_ORIGIN_ALLOW_ALL=True
 
 
