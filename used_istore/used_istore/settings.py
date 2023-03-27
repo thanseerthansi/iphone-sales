@@ -26,10 +26,10 @@ SECRET_KEY = '_quwe@0*am@u++$**%gm^i-rv5%y9env8v!8b@56$d#v0!8s+j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['64.227.170.7']
+ALLOWED_HOSTS = ['https://admin.zellstores.com/',"https://zellstores.com/"]
 # ALLOWED_HOSTS = ['*']
 # CORS_ORIGIN_ALLOW_ALL=True
-CORS_ORIGIN_WHITELIST = ['http://64.227.170.7']
+CORS_ORIGIN_WHITELIST = ["https://admin.zellstores.com/","https://zellstores.com/"]
 
 
 # Application definition
