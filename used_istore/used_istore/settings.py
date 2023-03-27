@@ -28,8 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://admin.zellstores.com/',"https://zellstores.com/"]
 # ALLOWED_HOSTS = ['*']
-# CORS_ORIGIN_ALLOW_ALL=True
-CORS_ORIGIN_WHITELIST = ["https://admin.zellstores.com/","https://zellstores.com/"]
+CORS_ORIGIN_ALLOW_ALL=False
+CORS_ALLOWED_ORIGINS = ["https://admin.zellstores.com/","https://zellstores.com/"]
+# CORS_ORIGIN_WHITELIST = ["https://admin.zellstores.com/","https://zellstores.com/"]
 
 
 # Application definition
