@@ -1,0 +1,2487 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "post_migrate",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "CategorySerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ConditionSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ImageSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelnameSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductfullSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "StatusSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TestimonialSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ImageSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "StatusSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ImageSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "StatusSerializer",
+        "importPath": "commonapp.serializers",
+        "description": "commonapp.serializers",
+        "isExtraImport": true,
+        "detail": "commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConditionModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelnameModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "StatusModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestimonialModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "StatusModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "StatusModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "StatusModel",
+        "importPath": "commonapp.models",
+        "description": "commonapp.models",
+        "isExtraImport": true,
+        "detail": "commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "MyLimitOffsetPagination",
+        "importPath": "used_istore.mypagination",
+        "description": "used_istore.mypagination",
+        "isExtraImport": true,
+        "detail": "used_istore.mypagination",
+        "documentation": {}
+    },
+    {
+        "label": "MyLimitOffsetPagination",
+        "importPath": "used_istore.mypagination",
+        "description": "used_istore.mypagination",
+        "isExtraImport": true,
+        "detail": "used_istore.mypagination",
+        "documentation": {}
+    },
+    {
+        "label": "MyLimitOffsetPagination",
+        "importPath": "used_istore.mypagination",
+        "description": "used_istore.mypagination",
+        "isExtraImport": true,
+        "detail": "used_istore.mypagination",
+        "documentation": {}
+    },
+    {
+        "label": "stripe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stripe",
+        "description": "stripe",
+        "detail": "stripe",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "SellorderModel",
+        "importPath": "Sellingapp.models",
+        "description": "Sellingapp.models",
+        "isExtraImport": true,
+        "detail": "Sellingapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "SellproductorderModel",
+        "importPath": "Sellingapp.models",
+        "description": "Sellingapp.models",
+        "isExtraImport": true,
+        "detail": "Sellingapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "SellorderModel",
+        "importPath": "Sellingapp.models",
+        "description": "Sellingapp.models",
+        "isExtraImport": true,
+        "detail": "Sellingapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "SellproductorderModel",
+        "importPath": "Sellingapp.models",
+        "description": "Sellingapp.models",
+        "isExtraImport": true,
+        "detail": "Sellingapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "SellfullorderSerialiezer",
+        "importPath": "Sellingapp.serializers",
+        "description": "Sellingapp.serializers",
+        "isExtraImport": true,
+        "detail": "Sellingapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SellorderSerializer",
+        "importPath": "Sellingapp.serializers",
+        "description": "Sellingapp.serializers",
+        "isExtraImport": true,
+        "detail": "Sellingapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SellproductorderSerializer",
+        "importPath": "Sellingapp.serializers",
+        "description": "Sellingapp.serializers",
+        "isExtraImport": true,
+        "detail": "Sellingapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "ListAPIView",
+        "importPath": "rest_framework.generics",
+        "description": "rest_framework.generics",
+        "isExtraImport": true,
+        "detail": "rest_framework.generics",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticatedOrReadOnly",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Validate",
+        "importPath": "used_istore.validation",
+        "description": "used_istore.validation",
+        "isExtraImport": true,
+        "detail": "used_istore.validation",
+        "documentation": {}
+    },
+    {
+        "label": "LimitOffsetPagination",
+        "importPath": "rest_framework.pagination",
+        "description": "rest_framework.pagination",
+        "isExtraImport": true,
+        "detail": "rest_framework.pagination",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "rest_framework_simplejwt",
+        "description": "rest_framework_simplejwt",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "Usermodel",
+        "importPath": "Userapp.models",
+        "description": "Userapp.models",
+        "isExtraImport": true,
+        "detail": "Userapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Usermodel",
+        "importPath": "Userapp.models",
+        "description": "Userapp.models",
+        "isExtraImport": true,
+        "detail": "Userapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "importPath": "Userapp.serializers",
+        "description": "Userapp.serializers",
+        "isExtraImport": true,
+        "detail": "Userapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "make_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "check_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0001_initial",
+        "description": "used_istore.commonapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ConditionModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('condition', models.CharField(blank=True, max_length=100)),",
+        "detail": "used_istore.commonapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0002_productmodel_images",
+        "description": "used_istore.commonapp.migrations.0002_productmodel_images",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='images',\n            field=models.ManyToManyField(to='commonapp.imagemodel'),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0002_productmodel_images",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0003_statusmodel_code",
+        "description": "used_istore.commonapp.migrations.0003_statusmodel_code",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0002_productmodel_images'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='statusmodel',\n            name='code',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0003_statusmodel_code",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0004_productmodel_oldfromprice_productmodel_sellfromprice",
+        "description": "used_istore.commonapp.migrations.0004_productmodel_oldfromprice_productmodel_sellfromprice",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0003_statusmodel_code'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='oldfromprice',\n            field=models.FloatField(default=0.0),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0004_productmodel_oldfromprice_productmodel_sellfromprice",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0005_productmodel_colors",
+        "description": "used_istore.commonapp.migrations.0005_productmodel_colors",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0004_productmodel_oldfromprice_productmodel_sellfromprice'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='colors',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0005_productmodel_colors",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0006_categorymodel_modelnamemodel_and_more",
+        "description": "used_istore.commonapp.migrations.0006_categorymodel_modelnamemodel_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0005_productmodel_colors'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CategoryModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('category', models.CharField(blank=True, max_length=100)),",
+        "detail": "used_istore.commonapp.migrations.0006_categorymodel_modelnamemodel_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0007_productmodel_model_name",
+        "description": "used_istore.commonapp.migrations.0007_productmodel_model_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0006_categorymodel_modelnamemodel_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='model_name',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='commonapp.modelnamemodel'),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0007_productmodel_model_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0008_remove_productmodel_model_name",
+        "description": "used_istore.commonapp.migrations.0008_remove_productmodel_model_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0007_productmodel_model_name'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='productmodel',\n            name='model_name',\n        ),\n    ]",
+        "detail": "used_istore.commonapp.migrations.0008_remove_productmodel_model_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0009_productmodel_model_name",
+        "description": "used_istore.commonapp.migrations.0009_productmodel_model_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0008_remove_productmodel_model_name'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='model_name',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0009_productmodel_model_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0010_productmodel_category",
+        "description": "used_istore.commonapp.migrations.0010_productmodel_category",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0009_productmodel_model_name'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='category',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0010_productmodel_category",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0011_testimonialmodel",
+        "description": "used_istore.commonapp.migrations.0011_testimonialmodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0010_productmodel_category'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='TestimonialModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(blank=True, max_length=100)),",
+        "detail": "used_istore.commonapp.migrations.0011_testimonialmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0012_alter_testimonialmodel_review",
+        "description": "used_istore.commonapp.migrations.0012_alter_testimonialmodel_review",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0011_testimonialmodel'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='testimonialmodel',\n            name='review',\n            field=models.TextField(blank=True),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0012_alter_testimonialmodel_review",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0013_alter_statusmodel_code_alter_statusmodel_status",
+        "description": "used_istore.commonapp.migrations.0013_alter_statusmodel_code_alter_statusmodel_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0012_alter_testimonialmodel_review'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='statusmodel',\n            name='code',\n            field=models.CharField(blank=True, default='#1cdb37', max_length=100),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0013_alter_statusmodel_code_alter_statusmodel_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.migrations.0014_alter_statusmodel_code_alter_statusmodel_status",
+        "description": "used_istore.commonapp.migrations.0014_alter_statusmodel_code_alter_statusmodel_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0013_alter_statusmodel_code_alter_statusmodel_status'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='statusmodel',\n            name='code',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.commonapp.migrations.0014_alter_statusmodel_code_alter_statusmodel_status",
+        "documentation": {}
+    },
+    {
+        "label": "CommonappConfig",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.apps",
+        "description": "used_istore.commonapp.apps",
+        "peekOfCode": "class CommonappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'commonapp'\n    def ready(self):\n        post_migrate.connect(create_initial_status, sender=self)",
+        "detail": "used_istore.commonapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "create_initial_status",
+        "kind": 2,
+        "importPath": "used_istore.commonapp.apps",
+        "description": "used_istore.commonapp.apps",
+        "peekOfCode": "def create_initial_status(sender, **kwargs):\n    from .models import StatusModel\n    if not StatusModel.objects.exists():\n        StatusModel.objects.create(status=\"new\", code=\"#1cdb37\")\nclass CommonappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'commonapp'\n    def ready(self):\n        post_migrate.connect(create_initial_status, sender=self)",
+        "detail": "used_istore.commonapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "StatusModel",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.models",
+        "description": "used_istore.commonapp.models",
+        "peekOfCode": "class StatusModel(models.Model):\n    status = models.CharField(max_length=100, blank=True)\n    code = models.CharField(max_length=100,blank=True)\n    description = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\n# class CityModel(models.Model):\n#     city = models.CharField(max_length=100,blank=True)\n#     description = models.TextField(blank=True)\n#     created_date = models.DateTimeField(auto_now_add=True)",
+        "detail": "used_istore.commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryModel",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.models",
+        "description": "used_istore.commonapp.models",
+        "peekOfCode": "class CategoryModel(models.Model):\n    category = models.CharField(max_length=100,blank=True)\n    description = models.TextField(blank=True)\n    created_date = models.DateField(auto_now_add=True)\n    updated_date = models.DateField(auto_now=True)\nclass ModelnameModel(models.Model):\n    model_name = models.CharField(max_length=100,blank=True)\n    description = models.TextField(blank=True)\n    created_date = models.DateField(auto_now_add=True)\n    updated_date = models.DateField(auto_now=True)",
+        "detail": "used_istore.commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ModelnameModel",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.models",
+        "description": "used_istore.commonapp.models",
+        "peekOfCode": "class ModelnameModel(models.Model):\n    model_name = models.CharField(max_length=100,blank=True)\n    description = models.TextField(blank=True)\n    created_date = models.DateField(auto_now_add=True)\n    updated_date = models.DateField(auto_now=True)\nclass ConditionModel(models.Model):\n    condition = models.CharField(max_length=100,blank=True)\n    description  = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)",
+        "detail": "used_istore.commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConditionModel",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.models",
+        "description": "used_istore.commonapp.models",
+        "peekOfCode": "class ConditionModel(models.Model):\n    condition = models.CharField(max_length=100,blank=True)\n    description  = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass ImageModel(models.Model):\n    image = models.ImageField(upload_to='Image',blank=True,null=True)\n    # color = models.ForeignKey(ColorModel,on_delete=models.CASCADE)\n    description = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
+        "detail": "used_istore.commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModel",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.models",
+        "description": "used_istore.commonapp.models",
+        "peekOfCode": "class ImageModel(models.Model):\n    image = models.ImageField(upload_to='Image',blank=True,null=True)\n    # color = models.ForeignKey(ColorModel,on_delete=models.CASCADE)\n    description = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass ProductModel(models.Model):\n    title = models.CharField(max_length=100,blank=True)\n    # condition = models.ForeignKey(ConditionModel,on_delete=models.CASCADE)\n    # storage = models.CharField(max_length=100,blank=True)",
+        "detail": "used_istore.commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.models",
+        "description": "used_istore.commonapp.models",
+        "peekOfCode": "class ProductModel(models.Model):\n    title = models.CharField(max_length=100,blank=True)\n    # condition = models.ForeignKey(ConditionModel,on_delete=models.CASCADE)\n    # storage = models.CharField(max_length=100,blank=True)\n    category = models.CharField(max_length=100,blank=True)\n    model_name = models.CharField(max_length=100,blank=True)\n    colors = models.CharField(max_length=100,blank=True)\n    oldfromprice = models.FloatField(default=0.0)\n    sellfromprice = models.FloatField(default=0.0)\n    sellprice = models.CharField(max_length=200,blank=True)#storage-condition-price,.....",
+        "detail": "used_istore.commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestimonialModel",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.models",
+        "description": "used_istore.commonapp.models",
+        "peekOfCode": "class TestimonialModel(models.Model):\n    name = models.CharField(max_length=100,blank=True)\n    place = models.CharField(max_length=100,blank=True)\n    rating = models.IntegerField(default=0)\n    review = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)",
+        "detail": "used_istore.commonapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "StatusSerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class StatusSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = StatusModel\n        fields = '__all__'\n# class CitySerializer(serializers.ModelSerializer):\n#     class Meta:\n#         model = CityModel\n#         fields = '__all__'\n# class ColorSerializer(serializers.ModelSerializer):\n#     class Meta:",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ConditionSerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class ConditionSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ConditionModel\n        fields ='__all__'\nclass CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CategoryModel\n        fields ='__all__'\nclass ModelnameSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "CategorySerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class CategorySerializer(serializers.ModelSerializer):\n    class Meta:\n        model = CategoryModel\n        fields ='__all__'\nclass ModelnameSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ModelnameModel\n        fields ='__all__'\nclass ImageSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ModelnameSerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class ModelnameSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ModelnameModel\n        fields ='__all__'\nclass ImageSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ImageModel\n        fields = \"__all__\"\nclass ProductSerializer(serializers.ModelSerializer):\n    # condition = serializers.SerializerMethodField()",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ImageSerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class ImageSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ImageModel\n        fields = \"__all__\"\nclass ProductSerializer(serializers.ModelSerializer):\n    # condition = serializers.SerializerMethodField()\n    images = ImageSerializer(many=True)\n    class Meta:\n        model = ProductModel\n        fields = '__all__'",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductSerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class ProductSerializer(serializers.ModelSerializer):\n    # condition = serializers.SerializerMethodField()\n    images = ImageSerializer(many=True)\n    class Meta:\n        model = ProductModel\n        fields = '__all__'\n    # def get_condition(self,obj):\n    #     if obj.condition:\n    #         v_obj = ConditionModel.objects.filter(id=obj.condition.id).select_related('condition')\n    #         v_qs = ConditionSerializer(v_obj,many=True)",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ProductfullSerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class ProductfullSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ProductModel\n        fields = ['model_name','title','buyprice','buystatus','created_date','id']\nclass TestimonialSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = TestimonialModel\n        fields = '__all__'",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TestimonialSerializer",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.serializers",
+        "description": "used_istore.commonapp.serializers",
+        "peekOfCode": "class TestimonialSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = TestimonialModel\n        fields = '__all__'",
+        "detail": "used_istore.commonapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "used_istore.commonapp.urls",
+        "description": "used_istore.commonapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('status/',StatusView.as_view()),\n    path('condition/',ConditionView.as_view()),\n    path('category/',CategoryView.as_view()),\n    path('modelname/',ModelnameView.as_view()),\n    path('product/',ProductView.as_view()),\n    path('productfull/',ProductfullView.as_view()),\n    path('testimonial/',TestimonialView.as_view()),\n    path('create-checkout-session/',Payment_Class.as_view()),\n]",
+        "detail": "used_istore.commonapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "StatusView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class StatusView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = StatusSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            qs = StatusModel.objects.all()\n            if id: qs = qs.filter(id=id)\n            return qs\n        except :return None",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ImageView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class ImageView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = ImageSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.data['id']\n            qs = ImageModel.objects.all()\n            if id: qs = qs.filter(id=id)\n            return qs\n        except : return None",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ConditionView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class ConditionView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = ConditionSerializer\n    def get_queryset(self):\n        try:\n            condition = self.request.GET.get('condition')\n            id = self.request.GET.get('id')\n            qs = ConditionModel.objects.all()\n            if id: qs = qs.filter(id=id)\n            if condition: qs = qs.filter(condition__icontains=condition)",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class CategoryView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = CategorySerializer\n    def get_queryset(self):\n        try:\n            category = self.request.GET.get('category')\n            id = self.request.GET.get('id')\n            qs = CategoryModel.objects.all()\n            if id: qs = qs.filter(id=id)\n            if category: qs = qs.filter(category__icontains=category)",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ModelnameView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class ModelnameView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = ModelnameSerializer\n    def get_queryset(self):\n        try:\n            # category = self.request.GET.get('category')\n            id = self.request.GET.get('id')\n            qs = ModelnameModel.objects.all()\n            if id: qs = qs.filter(id=id)\n            # if category: qs = qs.filter(category__icontains=category)",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductfullView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class ProductfullView(ListAPIView):\n    serializer_class = ProductfullSerializer\n    permission_classes = (AllowAny,)\n    def get_queryset(self):\n        try:\n            # print(\"dddddd\",self.request.GET.get('model_name'))\n            id = self.request.GET.get('id')\n            buystatus = self.request.GET.get('buystatus')\n            sellstatus = self.request.GET.get('sellstatus')\n            phone = self.request.GET.get('model_name')",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class ProductView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = ProductSerializer\n    # pagination_class = MyLimitOffsetPagination\n    def get_queryset(self):\n        try:\n            # print(\"dddddd\",self.request.GET.get('model_name'))\n            id = self.request.GET.get('id')\n            title = self.request.GET.get('title')\n            buystatus = self.request.GET.get('buystatus')",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "TestimonialView",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class TestimonialView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = TestimonialSerializer\n    def get_queryset(self):\n        try:\n            # category = self.request.GET.get('category')\n            id = self.request.GET.get('id')\n            qs = TestimonialModel.objects.all()\n            if id: qs = qs.filter(id=id)\n            # if category: qs = qs.filter(category__icontains=category)",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Payment_Clas",
+        "kind": 6,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "class Payment_Class (ListAPIView):\n    permission_classes = (IsAuthenticated,)\n    def post(self,request) :\n        # print(self.request.data)\n        # try:\n        order_id = self.request.data['order_id']\n        site_ = self.request.data['site']\n        session = stripe.checkout.Session.create(\n        line_items=[{\n        'price_data': {",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "stripe.api_key",
+        "kind": 5,
+        "importPath": "used_istore.commonapp.views",
+        "description": "used_istore.commonapp.views",
+        "peekOfCode": "stripe.api_key = settings.STRIPE_API_KEY\n# from Purchaseapp.models import PhoneModel\n# from Purchaseapp.serializers import PhoneSerializer\n# Create your views here.\nclass StatusView(ListAPIView):\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    serializer_class = StatusSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')",
+        "detail": "used_istore.commonapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0001_initial",
+        "description": "used_istore.Purchaseapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('commonapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='OrderModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "used_istore.Purchaseapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0002_reviewmodel",
+        "description": "used_istore.Purchaseapp.migrations.0002_reviewmodel",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0001_initial'),\n        ('Purchaseapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ReviewModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "used_istore.Purchaseapp.migrations.0002_reviewmodel",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0003_reviewmodel_images",
+        "description": "used_istore.Purchaseapp.migrations.0003_reviewmodel_images",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0003_statusmodel_code'),\n        ('Purchaseapp', '0002_reviewmodel'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='reviewmodel',\n            name='images',\n            field=models.ManyToManyField(to='commonapp.imagemodel'),",
+        "detail": "used_istore.Purchaseapp.migrations.0003_reviewmodel_images",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0004_orderedproductmodel_condition_and_more",
+        "description": "used_istore.Purchaseapp.migrations.0004_orderedproductmodel_condition_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Purchaseapp', '0003_reviewmodel_images'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='orderedproductmodel',\n            name='condition',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.Purchaseapp.migrations.0004_orderedproductmodel_condition_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0005_ordermodel_email",
+        "description": "used_istore.Purchaseapp.migrations.0005_ordermodel_email",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Purchaseapp', '0004_orderedproductmodel_condition_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='ordermodel',\n            name='email',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.Purchaseapp.migrations.0005_ordermodel_email",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0006_reviewmodel_email",
+        "description": "used_istore.Purchaseapp.migrations.0006_reviewmodel_email",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Purchaseapp', '0005_ordermodel_email'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='reviewmodel',\n            name='email',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.Purchaseapp.migrations.0006_reviewmodel_email",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0007_ordermodel_country_ordermodel_postcode_and_more",
+        "description": "used_istore.Purchaseapp.migrations.0007_ordermodel_country_ordermodel_postcode_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Purchaseapp', '0006_reviewmodel_email'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='ordermodel',\n            name='country',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.Purchaseapp.migrations.0007_ordermodel_country_ordermodel_postcode_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0008_alter_ordermodel_postcode",
+        "description": "used_istore.Purchaseapp.migrations.0008_alter_ordermodel_postcode",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Purchaseapp', '0007_ordermodel_country_ordermodel_postcode_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='ordermodel',\n            name='postcode',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.Purchaseapp.migrations.0008_alter_ordermodel_postcode",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0009_orderedproductmodel_status_and_more",
+        "description": "used_istore.Purchaseapp.migrations.0009_orderedproductmodel_status_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0010_productmodel_category'),\n        ('Purchaseapp', '0008_alter_ordermodel_postcode'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='orderedproductmodel',\n            name='status',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.DO_NOTHING, to='commonapp.statusmodel'),",
+        "detail": "used_istore.Purchaseapp.migrations.0009_orderedproductmodel_status_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0010_remove_orderedproductmodel_status",
+        "description": "used_istore.Purchaseapp.migrations.0010_remove_orderedproductmodel_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Purchaseapp', '0009_orderedproductmodel_status_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='orderedproductmodel',\n            name='status',\n        ),\n    ]",
+        "detail": "used_istore.Purchaseapp.migrations.0010_remove_orderedproductmodel_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0011_orderedproductmodel_status",
+        "description": "used_istore.Purchaseapp.migrations.0011_orderedproductmodel_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0010_productmodel_category'),\n        ('Purchaseapp', '0010_remove_orderedproductmodel_status'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='orderedproductmodel',\n            name='status',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.DO_NOTHING, to='commonapp.statusmodel'),",
+        "detail": "used_istore.Purchaseapp.migrations.0011_orderedproductmodel_status",
+        "documentation": {}
+    },
+    {
+        "label": "PurchaseappConfig",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.apps",
+        "description": "used_istore.Purchaseapp.apps",
+        "peekOfCode": "class PurchaseappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Purchaseapp'",
+        "detail": "used_istore.Purchaseapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "OrderModel",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.models",
+        "description": "used_istore.Purchaseapp.models",
+        "peekOfCode": "class OrderModel(models.Model):\n    customer_name = models.CharField(max_length=100,blank=True)\n    address = models.CharField(max_length=100,blank=True)\n    contact = models.CharField(max_length=100,blank=True)\n    email  = models.CharField(max_length=100,blank=True)\n    status = models.ForeignKey(StatusModel,on_delete = models.DO_NOTHING,blank=True)\n    city = models.CharField(max_length=100,blank=True)\n    country = models.CharField(max_length=100,blank=True)\n    state = models.CharField(max_length=100,blank=True)\n    postcode = models.CharField(max_length=100,blank=True)",
+        "detail": "used_istore.Purchaseapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedproductModel",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.models",
+        "description": "used_istore.Purchaseapp.models",
+        "peekOfCode": "class OrderedproductModel(models.Model):\n    order_id = models.ForeignKey(OrderModel,on_delete=models.CASCADE,blank=True)\n    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING)\n    price = models.FloatField(default=0.0)\n    condition = models.CharField(max_length=100,blank=True)\n    storage = models.CharField(max_length=100,blank=True)\n    color  = models.CharField(max_length=100,blank=True)\n    quantity  = models.IntegerField(default=0)\n    status = models.ForeignKey(StatusModel,on_delete = models.DO_NOTHING,blank=True,null=True)\n    description = models.TextField(blank=True)",
+        "detail": "used_istore.Purchaseapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewModel",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.models",
+        "description": "used_istore.Purchaseapp.models",
+        "peekOfCode": "class ReviewModel(models.Model):\n    customer = models.CharField(max_length=100,blank=True)\n    product  = models.ForeignKey(ProductModel,on_delete=models.CASCADE)\n    email = models.CharField(max_length=100,blank=True)\n    images = models.ManyToManyField(ImageModel)\n    review_star = models.IntegerField(default=0)\n    status = models.BooleanField(default=True) \n    description = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)",
+        "detail": "used_istore.Purchaseapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderfullSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.serializers",
+        "description": "used_istore.Purchaseapp.serializers",
+        "peekOfCode": "class OrderfullSerializer(serializers.ModelSerializer):\n    status = serializers.SerializerMethodField()\n    class Meta:\n        model = OrderModel\n        fields = ['status','created_date','total_price']\n    def get_status(self,obj):\n        if obj.status:\n            v_obj = StatusModel.objects.filter(id=obj.status.id)\n            v_qs = StatusSerializer(v_obj,many=True)\n            return v_qs.data",
+        "detail": "used_istore.Purchaseapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.serializers",
+        "description": "used_istore.Purchaseapp.serializers",
+        "peekOfCode": "class OrderSerializer(serializers.ModelSerializer):\n    status = serializers.SerializerMethodField()\n    class Meta:\n        model = OrderModel\n        fields = \"__all__\"\n    def get_status(self,obj):\n        if obj.status:\n            v_obj = StatusModel.objects.filter(id=obj.status.id)\n            v_qs = StatusSerializer(v_obj,many=True)\n            return v_qs.data",
+        "detail": "used_istore.Purchaseapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OrderdproductSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.serializers",
+        "description": "used_istore.Purchaseapp.serializers",
+        "peekOfCode": "class OrderdproductSerializer(serializers.ModelSerializer):\n    order_id = serializers.SerializerMethodField()\n    product = serializers.SerializerMethodField()\n    status = serializers.SerializerMethodField()\n    class Meta:\n        model = OrderedproductModel\n        fields = \"__all__\"\n    def get_order_id(self,obj):\n        if obj.order_id:\n            v_obj = OrderModel.objects.filter(id=obj.order_id.id)",
+        "detail": "used_istore.Purchaseapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.serializers",
+        "description": "used_istore.Purchaseapp.serializers",
+        "peekOfCode": "class ReviewSerializer(serializers.ModelSerializer):\n    product = serializers.SerializerMethodField()\n    images = ImageSerializer(many=True)\n    class Meta:\n        model = ReviewModel\n        fields = \"__all__\"\n    def get_product(self,obj):\n        if obj.product:\n            v_obj = ProductModel.objects.filter(id=obj.product.id)\n            v_qs = ProductSerializer(v_obj,many=True)",
+        "detail": "used_istore.Purchaseapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "used_istore.Purchaseapp.urls",
+        "description": "used_istore.Purchaseapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('order/',OrderView.as_view()),\n    path('orderfull/',OrderfullView.as_view()),\n    path('orderedproduct/',OrderedproductView.as_view()),\n    path('review/',ReviewView.as_view()),\n]",
+        "detail": "used_istore.Purchaseapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "OrderfullView",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.views",
+        "description": "used_istore.Purchaseapp.views",
+        "peekOfCode": "class OrderfullView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = OrderfullSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            orderstatus = self.request.GET.get('status')\n            qs = OrderModel.objects.all()\n            if id:qs = qs.filter(id=id)\n            if orderstatus:qs=qs .filter(status__id=orderstatus)",
+        "detail": "used_istore.Purchaseapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderView",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.views",
+        "description": "used_istore.Purchaseapp.views",
+        "peekOfCode": "class OrderView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = OrderSerializer\n    pagination_class = MyLimitOffsetPagination\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            orderstatus = self.request.GET.get('status')\n            email = self.request.GET.get('email')\n            qs = OrderModel.objects.all()",
+        "detail": "used_istore.Purchaseapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "OrderedproductView",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.views",
+        "description": "used_istore.Purchaseapp.views",
+        "peekOfCode": "class OrderedproductView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = OrderdproductSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            order_id = self.request.GET.get('order_id')\n            product  = self.request.GET.get('product')\n            qs = OrderedproductModel.objects.all()\n            if id:qs = qs.filter(id=id)",
+        "detail": "used_istore.Purchaseapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ReviewView",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.views",
+        "description": "used_istore.Purchaseapp.views",
+        "peekOfCode": "class ReviewView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = ReviewSerializer\n    # pagination_class = MyLimitOffsetPagination\n    def get_queryset(self):\n        try:\n            print(\"self\",self.request.data)\n            id = self.request.GET.get('id')\n            product = self.request.GET.get('product')\n            # print(\"product\",product)",
+        "detail": "used_istore.Purchaseapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.migrations.0001_initial",
+        "description": "used_istore.Sellingapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('commonapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='SellorderModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "used_istore.Sellingapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.migrations.0002_sellproductordermodel_condition_and_more",
+        "description": "used_istore.Sellingapp.migrations.0002_sellproductordermodel_condition_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Sellingapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='sellproductordermodel',\n            name='condition',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.Sellingapp.migrations.0002_sellproductordermodel_condition_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.migrations.0003_remove_sellproductordermodel_color",
+        "description": "used_istore.Sellingapp.migrations.0003_remove_sellproductordermodel_color",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Sellingapp', '0002_sellproductordermodel_condition_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='sellproductordermodel',\n            name='color',\n        ),\n    ]",
+        "detail": "used_istore.Sellingapp.migrations.0003_remove_sellproductordermodel_color",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.migrations.0004_sellordermodel_country_sellordermodel_email_and_more",
+        "description": "used_istore.Sellingapp.migrations.0004_sellordermodel_country_sellordermodel_email_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Sellingapp', '0003_remove_sellproductordermodel_color'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='sellordermodel',\n            name='country',\n            field=models.CharField(blank=True, max_length=100),\n        ),",
+        "detail": "used_istore.Sellingapp.migrations.0004_sellordermodel_country_sellordermodel_email_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.migrations.0005_alter_sellproductordermodel_product",
+        "description": "used_istore.Sellingapp.migrations.0005_alter_sellproductordermodel_product",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0010_productmodel_category'),\n        ('Sellingapp', '0004_sellordermodel_country_sellordermodel_email_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='sellproductordermodel',\n            name='product',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.DO_NOTHING, to='commonapp.productmodel'),",
+        "detail": "used_istore.Sellingapp.migrations.0005_alter_sellproductordermodel_product",
+        "documentation": {}
+    },
+    {
+        "label": "SellingappConfig",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.apps",
+        "description": "used_istore.Sellingapp.apps",
+        "peekOfCode": "class SellingappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Sellingapp'",
+        "detail": "used_istore.Sellingapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SellorderModel",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.models",
+        "description": "used_istore.Sellingapp.models",
+        "peekOfCode": "class SellorderModel(models.Model):\n    customer_name = models.CharField(max_length=100,blank=True)\n    address = models.CharField(max_length=100,blank=True)\n    contact = models.CharField(max_length=100,blank=True)\n    status = models.ForeignKey(StatusModel,on_delete = models.DO_NOTHING)\n    city = models.CharField(max_length=100,blank=True)\n    email  = models.CharField(max_length=100,blank=True)\n    country = models.CharField(max_length=100,blank=True)\n    state = models.CharField(max_length=100,blank=True)\n    postcode = models.CharField(max_length=100,blank=True)",
+        "detail": "used_istore.Sellingapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "SellproductorderModel",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.models",
+        "description": "used_istore.Sellingapp.models",
+        "peekOfCode": "class SellproductorderModel(models.Model):\n    sellorder_id = models.ForeignKey(SellorderModel,on_delete=models.CASCADE)\n    product = models.ForeignKey(ProductModel,on_delete=models.DO_NOTHING,blank=True,null=True)\n    price = models.FloatField(default=0.0)\n    condition = models.CharField(max_length=100,blank=True)\n    storage = models.CharField(max_length=100,blank=True)\n    # color  = models.CharField(max_length=100,blank=True)\n    quantity  = models.IntegerField(default=0)\n    description = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
+        "detail": "used_istore.Sellingapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "SellfullorderSerialiezer",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.serializers",
+        "description": "used_istore.Sellingapp.serializers",
+        "peekOfCode": "class SellfullorderSerialiezer(serializers.ModelSerializer):\n    status = serializers.SerializerMethodField()\n    class Meta:\n        model = SellorderModel\n        fields = ['status','created_date']\n    def get_status(self,obj):\n        if obj.status:\n            v_obj = StatusModel.objects.filter(id=obj.status.id)\n            v_qs = StatusSerializer(v_obj,many=True)\n            return v_qs.data",
+        "detail": "used_istore.Sellingapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SellorderSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.serializers",
+        "description": "used_istore.Sellingapp.serializers",
+        "peekOfCode": "class SellorderSerializer(serializers.ModelSerializer):\n    status = serializers.SerializerMethodField()\n    class Meta:\n        model = SellorderModel\n        fields = \"__all__\"\n    def get_status(self,obj):\n        if obj.status:\n            v_obj = StatusModel.objects.filter(id=obj.status.id)\n            v_qs = StatusSerializer(v_obj,many=True)\n            return v_qs.data",
+        "detail": "used_istore.Sellingapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "SellproductorderSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.serializers",
+        "description": "used_istore.Sellingapp.serializers",
+        "peekOfCode": "class SellproductorderSerializer(serializers.ModelSerializer):\n    sellorder_id = serializers.SerializerMethodField()\n    product = serializers.SerializerMethodField()\n    class Meta:\n        model = SellproductorderModel\n        fields = \"__all__\"\n    def get_sellorder_id(self,obj):\n        if obj.sellorder_id:\n            v_obj = SellorderModel.objects.filter(id=obj.sellorder_id.id)\n            v_qs = SellorderSerializer(v_obj,many=True)",
+        "detail": "used_istore.Sellingapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "used_istore.Sellingapp.urls",
+        "description": "used_istore.Sellingapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('sellfullorder/',SellfullorderView.as_view()),\n    path('sellorder/',SellorderView.as_view()),\n    path('sellproduct/',SellproductorderView.as_view()),\n]",
+        "detail": "used_istore.Sellingapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SellfullorderView",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.views",
+        "description": "used_istore.Sellingapp.views",
+        "peekOfCode": "class SellfullorderView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = SellfullorderSerialiezer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            sellorderstatus = self.request.GET.get('status')\n            qs = SellorderModel.objects.all()\n            if id:qs = qs.filter(id=id)\n            if sellorderstatus:qs=qs .filter(status__id=sellorderstatus)",
+        "detail": "used_istore.Sellingapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "SellorderView",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.views",
+        "description": "used_istore.Sellingapp.views",
+        "peekOfCode": "class SellorderView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = SellorderSerializer\n    pagination_class = MyLimitOffsetPagination\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            sellorderstatus = self.request.GET.get('status')\n            email = self.request.GET.get('email')\n            qs = SellorderModel.objects.all()",
+        "detail": "used_istore.Sellingapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "SellproductorderView",
+        "kind": 6,
+        "importPath": "used_istore.Sellingapp.views",
+        "description": "used_istore.Sellingapp.views",
+        "peekOfCode": "class SellproductorderView(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = SellproductorderSerializer\n    def get_queryset(self):\n        try:\n            id = self.request.GET.get('id')\n            order_id = self.request.GET.get('order_id')\n            # print(\"orderid\",order_id)\n            product  = self.request.GET.get('product')\n            qs =SellproductorderModel.objects.all()",
+        "detail": "used_istore.Sellingapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.asgi",
+        "description": "used_istore.used_istore.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "used_istore.used_istore.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "MyLimitOffsetPagination",
+        "kind": 6,
+        "importPath": "used_istore.used_istore.mypagination",
+        "description": "used_istore.used_istore.mypagination",
+        "peekOfCode": "class MyLimitOffsetPagination(LimitOffsetPagination):\n    default_limit = 12",
+        "detail": "used_istore.used_istore.mypagination",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = '_quwe@0*am@u++$**%gm^i-rv5%y9env8v!8b@56$d#v0!8s+j'\nSTRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "SECRET_KEY = '_quwe@0*am@u++$**%gm^i-rv5%y9env8v!8b@56$d#v0!8s+j'\nSTRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STRIPE_API_KEY",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "STRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "DEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",\n#     \"http://localhost:3001\",\n#     'http://localhost:3000'",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",\n#     \"http://localhost:3001\",\n#     'http://localhost:3000'\n#     # Other allowed origins\n# ]",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'commonapp',\n    'Userapp',\n    'Purchaseapp',",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"corsheaders.middleware.CorsMiddleware\",\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "ROOT_URLCONF = 'used_istore.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'used_istore.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.Usermodel'\nMEDIA_URL = '/media/'",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.Usermodel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.Usermodel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.Usermodel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.1/howto/static-files/\nSTATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.Usermodel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nAUTH_USER_MODEL = 'Userapp.Usermodel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n}\nSIMPLE_JWT = {",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'Userapp.Usermodel'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n}\nSIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(hours=6),",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n}\nSIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(hours=6),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nREST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n}\nSIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(hours=6),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),\n    # 'REFRESH_TOKEN_LIFETIME': timedelta(minutes=1),",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ],\n}\nSIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(hours=6),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),\n    # 'REFRESH_TOKEN_LIFETIME': timedelta(minutes=1),\n    'ROTATE_REFRESH_TOKENS': False,",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(hours=6),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),\n    # 'REFRESH_TOKEN_LIFETIME': timedelta(minutes=1),\n    'ROTATE_REFRESH_TOKENS': False,\n    'BLACKLIST_AFTER_ROTATION': False,\n    'UPDATE_LAST_LOGIN': False,\n    'ALGORITHM': 'HS256',\n    'SIGNING_KEY': SECRET_KEY,\n    'VERIFYING_KEY': None,",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_USE_TLS = True\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "EMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "EMAIL_PORT = 587",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.urls",
+        "description": "used_istore.used_istore.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n     path('api/token/',\n         jwt_views.TokenObtainPairView.as_view(),\n         name ='token_obtain_pair'),\n    path('api/token/refresh/',\n         jwt_views.TokenRefreshView.as_view(),\n         name ='token_refresh'),\n    path('user/',include('Userapp.urls')),\n    path('product/',include('commonapp.urls')),",
+        "detail": "used_istore.used_istore.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Validate",
+        "kind": 2,
+        "importPath": "used_istore.used_istore.validation",
+        "description": "used_istore.used_istore.validation",
+        "peekOfCode": "def Validate(data,mandatory):\n    not_present =[]\n    for x in mandatory:\n        if x not in data:\n            not_present.append(x)\n            return(f\"{x} Is Not Present\")\n        else:\n            if data[x] == \"\":\n                not_present.append(x)\n                return(f\"{x} Cannot Use as null\")",
+        "detail": "used_istore.used_istore.validation",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.wsgi",
+        "description": "used_istore.used_istore.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "used_istore.used_istore.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.migrations.0001_initial",
+        "description": "used_istore.Userapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Usermodel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "used_istore.Userapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.migrations.0002_rename_conact_usermodel_contact",
+        "description": "used_istore.Userapp.migrations.0002_rename_conact_usermodel_contact",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Userapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='usermodel',\n            old_name='conact',\n            new_name='contact',\n        ),",
+        "detail": "used_istore.Userapp.migrations.0002_rename_conact_usermodel_contact",
+        "documentation": {}
+    },
+    {
+        "label": "UserappConfig",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.apps",
+        "description": "used_istore.Userapp.apps",
+        "peekOfCode": "class UserappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Userapp'",
+        "detail": "used_istore.Userapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Usermodel",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.models",
+        "description": "used_istore.Userapp.models",
+        "peekOfCode": "class Usermodel(AbstractUser):\n    contact = models.CharField(max_length=100,blank=True)\n    is_status = models.BooleanField(default=True)\n    is_admin = models.BooleanField(default=False)",
+        "detail": "used_istore.Userapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.serializers",
+        "description": "used_istore.Userapp.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Usermodel\n        fields = '__all__'",
+        "detail": "used_istore.Userapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "used_istore.Userapp.urls",
+        "description": "used_istore.Userapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('user/',Userview.as_view()),\n    path('sentmail/',SendMail.as_view()),\n    path('passwordchange/',PasswordChange.as_view()),\n]",
+        "detail": "used_istore.Userapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Userview",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.views",
+        "description": "used_istore.Userapp.views",
+        "peekOfCode": "class Userview(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = UserSerializer\n    def get_queryset(self):\n        try:\n            userid = self.request.user.id\n            username = self.request.GET.get('username')\n            email = self.request.GET.get('email')\n            print(\"email\",email)\n            print(\"email\",username)",
+        "detail": "used_istore.Userapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "SendMail",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.views",
+        "description": "used_istore.Userapp.views",
+        "peekOfCode": "class SendMail(ListAPIView):\n    serializer_class = UserSerializer\n    permission_classes = (AllowAny,)\n    def post(self,request):\n        try:\n            # print(\"sdf\",self.request.data)\n            try:email = self.request.data['email']\n            except :email = ''\n            try:url = self.request.data['url']\n            except :url = ''",
+        "detail": "used_istore.Userapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChange",
+        "kind": 6,
+        "importPath": "used_istore.Userapp.views",
+        "description": "used_istore.Userapp.views",
+        "peekOfCode": "class PasswordChange(ListAPIView):\n    permission_classes = (AllowAny,)\n    serializer_class = UserSerializer\n    def post(self,request):\n        userobj = \"\"\n        try:id=self.request.data['id']\n        except:id=''\n        # try:username = self.request.data['username']\n        # except:username=''\n        try:password = self.request.data['password']",
+        "detail": "used_istore.Userapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "used_istore.manage",
+        "description": "used_istore.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'used_istore.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "used_istore.manage",
+        "documentation": {}
+    }
+]

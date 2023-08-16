@@ -23,13 +23,21 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '_quwe@0*am@u++$**%gm^i-rv5%y9env8v!8b@56$d#v0!8s+j'
 
+STRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 # ALLOWED_HOSTS = ['https://admin.zellstores.com/',"https://zellstores.com/"]
 ALLOWED_HOSTS = ['*']
-CORS_ORIGIN_ALLOW_ALL=False
-CORS_ALLOWED_ORIGINS = ["https://admin.zellstores.com/","https://zellstores.com/"]
+CORS_ORIGIN_ALLOW_ALL=True
+# CORS_ALLOWED_ORIGINS = ["https://admin.zellstores.com/","https://zellstores.com/"]
+# CORS_ALLOWED_ORIGINS = [
+#     "https://admin.zellstores.com",
+#     "https://zellstores.com",
+#     "http://localhost:3001",
+#     'http://localhost:3000'
+#     # Other allowed origins
+# ]
 # CORS_ORIGIN_WHITELIST = ["https://admin.zellstores.com/","https://zellstores.com/"]
 
 

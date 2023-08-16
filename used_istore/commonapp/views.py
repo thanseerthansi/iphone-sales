@@ -1,4 +1,5 @@
 # from django.shortcuts import render
+from django.conf import settings
 from used_istore.globalimport import *
 from commonapp.serializers import (CategorySerializer, ConditionSerializer, ImageSerializer,
     ModelnameSerializer, ProductfullSerializer, ProductSerializer, StatusSerializer,
@@ -7,6 +8,8 @@ from commonapp.models import (CategoryModel, ConditionModel, ImageModel, Modelna
     ProductModel, StatusModel, TestimonialModel)
 import json
 from used_istore.mypagination import MyLimitOffsetPagination
+import stripe
+stripe.api_key = settings.STRIPE_API_KEY
 # from Purchaseapp.models import PhoneModel
 # from Purchaseapp.serializers import PhoneSerializer
 # Create your views here.
@@ -232,8 +235,11 @@ class CategoryView(ListAPIView):
             qs = CategoryModel.objects.all()
             if id: qs = qs.filter(id=id)
             if category: qs = qs.filter(category__icontains=category)
+            # print("categoryget",qs)
             return qs
-        except :return None
+        except :
+            print("none")
+            return None
         
     def post(self,request):
         try:
@@ -255,13 +261,13 @@ class CategoryView(ListAPIView):
         except Exception as e : return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
     def delete(self,request):
         try:
-            print("self.request.data['id']",self.request.data['id'])
+            # print("self.request.data['id']",self.request.data['id'])
             id = self.request.data['id']
             id=json.loads(id)
             
             if id:
                 obj = CategoryModel.objects.filter(id__in=id)
-                print("okk")
+                # print("okk")
                 if obj.count():
                     # print("okk")
                     obj.delete() 
@@ -546,3 +552,32 @@ class TestimonialView(ListAPIView):
                 else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No Record Found with given id"})
             else:return Response({"Status":status.HTTP_404_NOT_FOUND,"Message":"No id found"})
         except Exception as e: return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})
+
+class Payment_Class (ListAPIView):
+    permission_classes = (IsAuthenticated,)
+    def post(self,request) :
+        # print(self.request.data)
+        # try:
+        order_id = self.request.data['order_id']
+        site_ = self.request.data['site']
+        session = stripe.checkout.Session.create(
+        line_items=[{
+        'price_data': {
+            'currency': self.request.data['currency'],
+            'product_data': {
+            'name': self.request.data['product_name'],
+            },
+            'unit_amount': self.request.data['unit_amount'] * 100,
+        },
+        'quantity': 1 ,
+        }],
+        mode='payment',
+        # success_url=site_ + '/success=true&session_id={CHECKOUT_SESSION_ID}',
+        success_url=site_ + '/success=true&session_id=/{CHECKOUT_SESSION_ID}/'+str(order_id),
+        cancel_url=site_ + '/canceled=true&order_id=/'+str(order_id),
+        )
+
+        return Response({
+            "Status" : status.HTTP_200_OK,
+            "Message" : session
+        })

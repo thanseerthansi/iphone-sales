@@ -25,4 +25,5 @@ urlpatterns = [
     path('product/',ProductView.as_view()),
     path('productfull/',ProductfullView.as_view()),
     path('testimonial/',TestimonialView.as_view()),
+    path('create-checkout-session/',Payment_Class.as_view()),
 ]

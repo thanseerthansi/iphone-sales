@@ -16,8 +16,8 @@ class Userview(ListAPIView):
             userid = self.request.user.id
             username = self.request.GET.get('username')
             email = self.request.GET.get('email')
-            # print("email",email)
-            # print("email",username)
+            print("email",email)
+            print("email",username)
             qs = Usermodel.objects.all()
             user = self.request.GET.get('user')
             admin = self.request.GET.get("admin")
@@ -42,7 +42,7 @@ class Userview(ListAPIView):
             if id:
                 try:
 
-                    print("datapost",self.request.data)
+                    # print("datapost",self.request.data)
                     user = Usermodel.objects.filter(id=id)
                     if user.count():
                         user = user.first()
