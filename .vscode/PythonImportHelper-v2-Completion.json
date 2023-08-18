@@ -392,6 +392,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -1724,7 +1740,7 @@
         "kind": 6,
         "importPath": "used_istore.commonapp.views",
         "description": "used_istore.commonapp.views",
-        "peekOfCode": "class Payment_Class (ListAPIView):\n    permission_classes = (IsAuthenticated,)\n    def post(self,request) :\n        # print(self.request.data)\n        # try:\n        order_id = self.request.data['order_id']\n        site_ = self.request.data['site']\n        session = stripe.checkout.Session.create(\n        line_items=[{\n        'price_data': {",
+        "peekOfCode": "class Payment_Class (ListAPIView):\n    permission_classes = (IsAuthenticated,)\n    def post(self,request) :\n        # print(self.request.data)\n        # try:\n        # order_id = self.request.data['order_id']\n        site_ = self.request.data['site']\n        session = stripe.checkout.Session.create(\n        line_items=[{\n        'price_data': {",
         "detail": "used_istore.commonapp.views",
         "documentation": {}
     },
@@ -1834,6 +1850,15 @@
         "description": "used_istore.Purchaseapp.migrations.0011_orderedproductmodel_status",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('commonapp', '0010_productmodel_category'),\n        ('Purchaseapp', '0010_remove_orderedproductmodel_status'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='orderedproductmodel',\n            name='status',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.DO_NOTHING, to='commonapp.statusmodel'),",
         "detail": "used_istore.Purchaseapp.migrations.0011_orderedproductmodel_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Purchaseapp.migrations.0012_ordermodel_payment",
+        "description": "used_istore.Purchaseapp.migrations.0012_ordermodel_payment",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Purchaseapp', '0011_orderedproductmodel_status'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='ordermodel',\n            name='payment',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "used_istore.Purchaseapp.migrations.0012_ordermodel_payment",
         "documentation": {}
     },
     {

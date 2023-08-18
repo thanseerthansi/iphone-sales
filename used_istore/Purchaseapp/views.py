@@ -251,8 +251,8 @@ class OrderedproductView(ListAPIView):
             # print("sdfsf",orderedproduct_obj)
             orderedproduct_obj.is_valid(raise_exception=True)
             
-            orderedproduct_obj.save(order_id = order_qs,product = product_qs,status=status_qs)
-            return Response({"Status":status.HTTP_200_OK,"Message":msg})      
+            saved_order =  orderedproduct_obj.save(order_id = order_qs,product = product_qs,status=status_qs)
+            return Response({"Status":status.HTTP_200_OK,"Message":msg,"order_id":saved_order.id})      
         except Exception as e :
             # print("e",e)
             return Response({"Status":status.HTTP_400_BAD_REQUEST,"Message":str(e)})

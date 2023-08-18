@@ -25,6 +25,7 @@ class OrderModel(models.Model):
     postcode = models.CharField(max_length=100,blank=True)
     subtotal_price = models.FloatField(default=0.0)
     total_price  = models.FloatField(default=0.0)
+    payment = models.BooleanField(default=False)
     delivery_charge = models.FloatField(default=0.0)
     vat = models.FloatField(default=0.0)
     description  = models.TextField(blank=True)

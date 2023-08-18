@@ -558,7 +558,7 @@ class Payment_Class (ListAPIView):
     def post(self,request) :
         # print(self.request.data)
         # try:
-        order_id = self.request.data['order_id']
+        # order_id = self.request.data['order_id']
         site_ = self.request.data['site']
         session = stripe.checkout.Session.create(
         line_items=[{
@@ -573,8 +573,8 @@ class Payment_Class (ListAPIView):
         }],
         mode='payment',
         # success_url=site_ + '/success=true&session_id={CHECKOUT_SESSION_ID}',
-        success_url=site_ + '/success=true&session_id=/{CHECKOUT_SESSION_ID}/'+str(order_id),
-        cancel_url=site_ + '/canceled=true&order_id=/'+str(order_id),
+        success_url=site_ + '/success=true&session_id=/{CHECKOUT_SESSION_ID}',
+        cancel_url=site_ + '/canceled=true&order_id=',
         )
 
         return Response({
