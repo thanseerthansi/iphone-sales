@@ -2145,7 +2145,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "SECRET_KEY = '_quwe@0*am@u++$**%gm^i-rv5%y9env8v!8b@56$d#v0!8s+j'\nSTRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",",
+        "peekOfCode": "SECRET_KEY = '_quwe@0*am@u++$**%gm^i-rv5%y9env8v!8b@56$d#v0!8s+j'\nSTRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\nCORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com\",\"https://zellstores.com\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
@@ -2154,7 +2154,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "STRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",",
+        "peekOfCode": "STRIPE_API_KEY = 'sk_test_51NficKSJPAUKsFvgkV9xPz82Xj6uv0fTLs7lsAafIVpJrJkTmHgPPyQL453qZeBlvTCAW8EuVvpPHjmJ9x0uvfDy00tJMwMjuW'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\nCORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com\",\"https://zellstores.com\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
@@ -2163,7 +2163,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "DEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",\n#     \"http://localhost:3001\",\n#     'http://localhost:3000'",
+        "peekOfCode": "DEBUG = True\n# ALLOWED_HOSTS = ['https://admin.zellstores.com/',\"https://zellstores.com/\"]\nALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\nCORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com\",\"https://zellstores.com\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",\n#     \"http://localhost:3001\",\n#     'http://localhost:3000'",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
@@ -2172,7 +2172,16 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\n# CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",\n#     \"http://localhost:3001\",\n#     'http://localhost:3000'\n#     # Other allowed origins\n# ]",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\nCORS_ORIGIN_ALLOW_ALL=True\nCORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com\",\"https://zellstores.com\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",\n#     \"http://localhost:3001\",\n#     'http://localhost:3000'\n#     # Other allowed origins\n# ]",
+        "detail": "used_istore.used_istore.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "used_istore.used_istore.settings",
+        "description": "used_istore.used_istore.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\"https://admin.zellstores.com\",\"https://zellstores.com\"]\n# CORS_ALLOWED_ORIGINS = [\n#     \"https://admin.zellstores.com\",\n#     \"https://zellstores.com\",\n#     \"http://localhost:3001\",\n#     'http://localhost:3000'\n#     # Other allowed origins\n# ]\n# CORS_ORIGIN_WHITELIST = [\"https://admin.zellstores.com/\",\"https://zellstores.com/\"]\n# Application definition",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
