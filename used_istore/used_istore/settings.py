@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'Userapp',
     'Purchaseapp',
     'Sellingapp',
-    
+    'Bannerapp',
     #3rd party
     'rest_framework',
     'rest_framework_simplejwt',

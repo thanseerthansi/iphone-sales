@@ -16,238 +16,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -408,6 +176,262 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -528,12 +552,19 @@
         "documentation": {}
     },
     {
-        "label": "django.db.models.deletion",
-        "kind": 6,
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -641,11 +672,19 @@
         "documentation": {}
     },
     {
-        "label": "post_migrate",
-        "importPath": "django.db.models.signals",
-        "description": "django.db.models.signals",
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
         "isExtraImport": true,
-        "detail": "django.db.models.signals",
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
         "documentation": {}
     },
     {
@@ -721,6 +760,22 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -769,6 +824,63 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "used_istore.globalimport",
+        "description": "used_istore.globalimport",
+        "isExtraImport": true,
+        "detail": "used_istore.globalimport",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "post_migrate",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
         "label": "settings",
         "importPath": "django.conf",
         "description": "django.conf",
@@ -782,38 +894,6 @@
         "description": "django.conf",
         "isExtraImport": true,
         "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "used_istore.globalimport",
-        "description": "used_istore.globalimport",
-        "isExtraImport": true,
-        "detail": "used_istore.globalimport",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "used_istore.globalimport",
-        "description": "used_istore.globalimport",
-        "isExtraImport": true,
-        "detail": "used_istore.globalimport",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "used_istore.globalimport",
-        "description": "used_istore.globalimport",
-        "isExtraImport": true,
-        "detail": "used_istore.globalimport",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "used_istore.globalimport",
-        "description": "used_istore.globalimport",
-        "isExtraImport": true,
-        "detail": "used_istore.globalimport",
         "documentation": {}
     },
     {
@@ -1373,6 +1453,87 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.migrations.0001_initial",
+        "description": "used_istore.Bannerapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='BannerModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('banner_name', models.CharField(blank=True, max_length=100)),",
+        "detail": "used_istore.Bannerapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "BannerappConfig",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.apps",
+        "description": "used_istore.Bannerapp.apps",
+        "peekOfCode": "class BannerappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Bannerapp'",
+        "detail": "used_istore.Bannerapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "BannerModel",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.models",
+        "description": "used_istore.Bannerapp.models",
+        "peekOfCode": "class BannerModel(models.Model):\n    banner_name = models.CharField(max_length=100,blank=True)\n    banner_image = models.ImageField(upload_to='Image',blank=True,null=True)\n    banner_heading = models.CharField(max_length=100,blank=True)\n    banner_redirect = models.CharField(max_length=100,blank=True)\n    discription = models.TextField()\n    status = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass ContactModel(models.Model):",
+        "detail": "used_istore.Bannerapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactModel",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.models",
+        "description": "used_istore.Bannerapp.models",
+        "peekOfCode": "class ContactModel(models.Model):\n    contact = models.CharField(max_length=100,blank=True)\n    description = models.TextField()\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)",
+        "detail": "used_istore.Bannerapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "BannerSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.serializers",
+        "description": "used_istore.Bannerapp.serializers",
+        "peekOfCode": "class BannerSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = BannerModel\n        fields = '__all__'\nclass ContactSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ContactModel\n        fields ='__all__'",
+        "detail": "used_istore.Bannerapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ContactSerializer",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.serializers",
+        "description": "used_istore.Bannerapp.serializers",
+        "peekOfCode": "class ContactSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = ContactModel\n        fields ='__all__'",
+        "detail": "used_istore.Bannerapp.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "used_istore.Bannerapp.urls",
+        "description": "used_istore.Bannerapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('banner/',BannerView.as_view()),\n    path('contact/',ContactView.as_view()),\n]",
+        "detail": "used_istore.Bannerapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "BannerView",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.views",
+        "description": "used_istore.Bannerapp.views",
+        "peekOfCode": "class BannerView(ListAPIView):\n    serializer_class = BannerSerializer\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    def get_queryset(self):\n        try:\n            qs = BannerModel.objects.all()\n            id = self.request.GET.get('id')\n            name = self.request.GET.get('banner_name') \n            if id: qs = qs.filter(id=id)\n            if name : qs = qs.filter(banner_name=name)",
+        "detail": "used_istore.Bannerapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ContactView",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.views",
+        "description": "used_istore.Bannerapp.views",
+        "peekOfCode": "class ContactView(ListAPIView):\n    serializer_class = ContactSerializer\n    permission_classes = (IsAuthenticatedOrReadOnly,)\n    def get_queryset(self):\n        try:\n            qs = ContactModel.objects.all()\n            # print(\"qqqqqqqqqsssssssssssss\",qs)\n            id = self.request.GET.get('id')\n            if id: qs = qs.filter(id=id)\n            return qs",
+        "detail": "used_istore.Bannerapp.views",
         "documentation": {}
     },
     {

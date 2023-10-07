@@ -31,5 +31,6 @@ urlpatterns = [
     path('product/',include('commonapp.urls')),
     path('purchase/',include('Purchaseapp.urls')),
     path('selling/',include('Sellingapp.urls')),
+    path('banner/',include('Bannerapp.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
