@@ -26,7 +26,7 @@ class StatusView(ListAPIView):
   
     def post(self,request):
         try:
-            print("data",self.request.data)
+            # print("data",self.request.data)
             try: id = self.request.data['id']
             except:id=''
             if id:

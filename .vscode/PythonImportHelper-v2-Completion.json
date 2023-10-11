@@ -16,6 +16,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -1465,6 +1489,24 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.migrations.0002_alter_bannermodel_discription_and_more",
+        "description": "used_istore.Bannerapp.migrations.0002_alter_bannermodel_discription_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Bannerapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='bannermodel',\n            name='discription',\n            field=models.TextField(blank=True),\n        ),",
+        "detail": "used_istore.Bannerapp.migrations.0002_alter_bannermodel_discription_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "used_istore.Bannerapp.migrations.0003_rename_discription_bannermodel_description",
+        "description": "used_istore.Bannerapp.migrations.0003_rename_discription_bannermodel_description",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Bannerapp', '0002_alter_bannermodel_discription_and_more'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='bannermodel',\n            old_name='discription',\n            new_name='description',\n        ),",
+        "detail": "used_istore.Bannerapp.migrations.0003_rename_discription_bannermodel_description",
+        "documentation": {}
+    },
+    {
         "label": "BannerappConfig",
         "kind": 6,
         "importPath": "used_istore.Bannerapp.apps",
@@ -1478,7 +1520,7 @@
         "kind": 6,
         "importPath": "used_istore.Bannerapp.models",
         "description": "used_istore.Bannerapp.models",
-        "peekOfCode": "class BannerModel(models.Model):\n    banner_name = models.CharField(max_length=100,blank=True)\n    banner_image = models.ImageField(upload_to='Image',blank=True,null=True)\n    banner_heading = models.CharField(max_length=100,blank=True)\n    banner_redirect = models.CharField(max_length=100,blank=True)\n    discription = models.TextField()\n    status = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass ContactModel(models.Model):",
+        "peekOfCode": "class BannerModel(models.Model):\n    banner_name = models.CharField(max_length=100,blank=True)\n    banner_image = models.ImageField(upload_to='Image',blank=True,null=True)\n    banner_heading = models.CharField(max_length=100,blank=True)\n    banner_redirect = models.CharField(max_length=100,blank=True)\n    description = models.TextField(blank=True)\n    status = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)\nclass ContactModel(models.Model):",
         "detail": "used_istore.Bannerapp.models",
         "documentation": {}
     },
@@ -1487,7 +1529,7 @@
         "kind": 6,
         "importPath": "used_istore.Bannerapp.models",
         "description": "used_istore.Bannerapp.models",
-        "peekOfCode": "class ContactModel(models.Model):\n    contact = models.CharField(max_length=100,blank=True)\n    description = models.TextField()\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)",
+        "peekOfCode": "class ContactModel(models.Model):\n    contact = models.CharField(max_length=100,blank=True)\n    description = models.TextField(blank=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    updated_date = models.DateTimeField(auto_now=True)",
         "detail": "used_istore.Bannerapp.models",
         "documentation": {}
     },
