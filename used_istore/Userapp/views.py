@@ -35,6 +35,8 @@ class Userview(ListAPIView):
         except:username=''
         try:password = self.request.data['password']
         except:password = ''
+        try:oldpassword = self.request.data['oldpassword']
+        except:oldpassword = ''
          
         try:
             mandatory = ['username','password']
@@ -50,7 +52,7 @@ class Userview(ListAPIView):
                     # if email != user.email:comm
                     #     email_listqs = list(UserModel.objects.all().values_list('email',flat=True)) 
                     #     if email in email_listqs:return Response({"Status":status.HTTP_208_ALREADY_REPORTED,"Message":"Email Already Exist"})
-                    if (user.check_password(self.request.data['oldpassword'])):
+                    if (user.check_password(oldpassword)):
                         
                         serializer = UserSerializer(user,data=request.data,partial= True)
                         serializer.is_valid(raise_exception=True)
@@ -114,8 +116,21 @@ class SendMail(ListAPIView):
                     try:
                         send_mail(
                             'Password Reset Link',
-                            'Hello '+user_obj.username +' click this link to reset .'+user,
-                            'gymmanagment720@gmail.com',
+                            # 'Hello '+user_obj.username +' click this link to reset .'+user,
+                           f'''
+Dear {user_obj.username},
+
+We received a request to reset your password for your Zell account. To proceed with the password reset, please click on the link below:
+
+{user}
+
+If you did not request this password reset, you can safely ignore this email. Your account security is important to us.
+
+Thank you,
+The Zell Team
+''',
+
+                            'zellstores1@gmail.com',
                             [user_obj.email],
                             fail_silently=False,
                         )

@@ -179,9 +179,7 @@ SIMPLE_JWT = {
     'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',),
     'TOKEN_TYPE_CLAIM': 'token_type',
     'TOKEN_USER_CLASS': 'rest_framework_simplejwt.models.TokenUser',
-
     'JTI_CLAIM': 'jti',
-
     'SLIDING_TOKEN_REFRESH_EXP_CLAIM': 'refresh_exp',
     'SLIDING_TOKEN_LIFETIME': timedelta(minutes=5),
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
@@ -190,6 +188,8 @@ SIMPLE_JWT = {
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'gymmanagment720@gmail.com'
-EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'
+# EMAIL_HOST_USER = 'gymmanagment720@gmail.com'
+EMAIL_HOST_USER = 'zellstores1@gmail.com'
+# EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'
+EMAIL_HOST_PASSWORD = 'yvbefiqjrzgygoea'
 EMAIL_PORT = 587

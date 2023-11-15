@@ -2555,7 +2555,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_USE_TLS = True\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_USE_TLS = True\nEMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_USER = 'zellstores1@gmail.com'\n# EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_HOST_PASSWORD = 'yvbefiqjrzgygoea'\nEMAIL_PORT = 587",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
@@ -2564,7 +2564,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "peekOfCode": "EMAIL_USE_TLS = True\nEMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_USER = 'zellstores1@gmail.com'\n# EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_HOST_PASSWORD = 'yvbefiqjrzgygoea'\nEMAIL_PORT = 587",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
@@ -2573,7 +2573,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\n# EMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_USER = 'zellstores1@gmail.com'\n# EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_HOST_PASSWORD = 'yvbefiqjrzgygoea'\nEMAIL_PORT = 587",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
@@ -2582,7 +2582,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "EMAIL_HOST_USER = 'gymmanagment720@gmail.com'\nEMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "peekOfCode": "EMAIL_HOST_USER = 'zellstores1@gmail.com'\n# EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_HOST_PASSWORD = 'yvbefiqjrzgygoea'\nEMAIL_PORT = 587",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
@@ -2591,7 +2591,7 @@
         "kind": 5,
         "importPath": "used_istore.used_istore.settings",
         "description": "used_istore.used_istore.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = 'nxomztyqhnpmkhcc'\nEMAIL_PORT = 587",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'yvbefiqjrzgygoea'\nEMAIL_PORT = 587",
         "detail": "used_istore.used_istore.settings",
         "documentation": {}
     },
