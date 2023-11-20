@@ -28,7 +28,7 @@ class CategoryModel(models.Model):
     updated_date = models.DateField(auto_now=True)
 
 class ModelnameModel(models.Model):
-    model_name = models.CharField(max_length=100,blank=True)
+    model_name = models.TextField(blank=True)
     description = models.TextField(blank=True)
     created_date = models.DateField(auto_now_add=True)
     updated_date = models.DateField(auto_now=True)
